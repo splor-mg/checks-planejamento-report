@@ -1,2 +1,1 @@
-pip-tools
 git+https://github.com/splor-mg/dpm.git@main#egg=dpm

@@ -1,5 +1,5 @@
 ---
-title: "Checklist para conferência das bases SIGPLAN/SISOR"
+title: "Checks Planejamento"
 output: 
   rmdformats::robobook:
     toc: 3
@@ -8,13 +8,13 @@ date: "`r format(Sys.time())`"
 ---
 
 ```{r setup, include=FALSE}
-library(checks.planejamento)
+library(checksplanejamento)
 
 knitr::opts_chunk$set(rownames.print = FALSE)
 
 old_hook <- knitr::knit_hooks$get("document")
-knitr::knit_hooks$set(document = checks.planejamento::document_hook,
-                      check = checks.planejamento::check_hook)
+knitr::knit_hooks$set(document = checksplanejamento::document_hook,
+                      check = checksplanejamento::check_hook)
 
 CHECK_COUNT <- list(pass = 0, fail = 0)
 
@@ -25,21 +25,21 @@ aux <- read_datapackage("datapackages/auxiliares/datapackage.json")
 
 ## check_area_tematica_exists
 
-### check_area_tematica_exists_programas
+### [check_area_tematica_exists_programas](https://splor-mg.github.io/checks-planejamento/reference/check_area_tematica_exists_programas.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_area_tematica_exists_programas(sigplan$programas_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_area_tematica_exists_acoes
+### [check_area_tematica_exists_acoes](https://splor-mg.github.io/checks-planejamento/reference/check_area_tematica_exists_acoes.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_area_tematica_exists_acoes(sigplan$acoes_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_area_tematica_exists_localizadores
+### [check_area_tematica_exists_localizadores](https://splor-mg.github.io/checks-planejamento/reference/check_area_tematica_exists_localizadores.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_area_tematica_exists_localizadores(sigplan$localizadores_todos_planejamento, output = TRUE)
@@ -48,35 +48,35 @@ render_table(check$info)
 
 ## check_count
 
-### check_count_programas
+### [check_count_programas](https://splor-mg.github.io/checks-planejamento/reference/check_count_programas.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_count_programas(sigplan$programas_planejamento, sigplan$acoes_planejamento, sigplan$localizadores_todos_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_count_programas_is_deleted
+### [check_count_programas_is_deleted](https://splor-mg.github.io/checks-planejamento/reference/check_count_programas_is_deleted.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_count_programas_is_deleted(sigplan$programas_planejamento, sigplan$acoes_planejamento, sigplan$localizadores_todos_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_count_programas_is_new
+### [check_count_programas_is_new](https://splor-mg.github.io/checks-planejamento/reference/check_count_programas_is_new.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_count_programas_is_new(sigplan$programas_planejamento, sigplan$acoes_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_count_acoes
+### [check_count_acoes](https://splor-mg.github.io/checks-planejamento/reference/check_count_acoes.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_count_acoes(sigplan$acoes_planejamento, sigplan$localizadores_todos_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_count_acoes_is_deleted
+### [check_count_acoes_is_deleted](https://splor-mg.github.io/checks-planejamento/reference/check_count_acoes_is_deleted.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_count_acoes_is_deleted(sigplan$acoes_planejamento, sigplan$localizadores_todos_planejamento, output = TRUE)
@@ -85,42 +85,42 @@ render_table(check$info)
 
 ## check_detalhamento_obras
 
-### check_detalhamento_obras_orcam_fiscal_tesouro
+### [check_detalhamento_obras_orcam_fiscal_tesouro](https://splor-mg.github.io/checks-planejamento/reference/check_detalhamento_obras_orcam_fiscal_tesouro.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_detalhamento_obras_orcam_fiscal_tesouro(sisor$base_qdd_fiscal, sisor$base_detalhamento_obras, output = TRUE)
 render_table(check$info)
 ```
 
-### check_detalhamento_obras_orcam_fiscal_tesouro_plurianual
+### [check_detalhamento_obras_orcam_fiscal_tesouro_plurianual](https://splor-mg.github.io/checks-planejamento/reference/check_detalhamento_obras_orcam_fiscal_tesouro_plurianual.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_detalhamento_obras_orcam_fiscal_tesouro_plurianual(sisor$base_qdd_plurianual, sisor$base_detalhamento_obras, output = TRUE)
 render_table(check$info)
 ```
 
-### check_detalhamento_obras_orcam_fiscal_outros
+### [check_detalhamento_obras_orcam_fiscal_outros](https://splor-mg.github.io/checks-planejamento/reference/check_detalhamento_obras_orcam_fiscal_outros.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_detalhamento_obras_orcam_fiscal_outros(sisor$base_qdd_fiscal, sisor$base_detalhamento_obras, output = TRUE)
 render_table(check$info)
 ```
 
-### check_detalhamento_obras_orcam_fiscal_outros_plurianual
+### [check_detalhamento_obras_orcam_fiscal_outros_plurianual](https://splor-mg.github.io/checks-planejamento/reference/check_detalhamento_obras_orcam_fiscal_outros_plurianual.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_detalhamento_obras_orcam_fiscal_outros_plurianual(sisor$base_qdd_plurianual, sisor$base_detalhamento_obras, output = TRUE)
 render_table(check$info)
 ```
 
-### check_detalhamento_obras_orcam_investimento
+### [check_detalhamento_obras_orcam_investimento](https://splor-mg.github.io/checks-planejamento/reference/check_detalhamento_obras_orcam_investimento.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_detalhamento_obras_orcam_investimento(sisor$base_qdd_investimento, sisor$base_detalhamento_obras, output = TRUE)
 render_table(check$info)
 ```
 
-### check_detalhamento_obras_orcam_investimento_plurianual
+### [check_detalhamento_obras_orcam_investimento_plurianual](https://splor-mg.github.io/checks-planejamento/reference/check_detalhamento_obras_orcam_investimento_plurianual.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_detalhamento_obras_orcam_investimento_plurianual(sisor$base_qdd_plurianual_invest, sisor$base_detalhamento_obras, output = TRUE)
@@ -129,14 +129,14 @@ render_table(check$info)
 
 ## check_fechamento_fonte
 
-### check_fechamento_fonte_orcam_fiscal
+### [check_fechamento_fonte_orcam_fiscal](https://splor-mg.github.io/checks-planejamento/reference/check_fechamento_fonte_orcam_fiscal.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_fechamento_fonte_orcam_fiscal(sisor$base_orcam_receita_fiscal, sisor$base_qdd_fiscal, output = TRUE)
 render_table(check$info)
 ```
 
-### check_fechamento_fonte_orcam_investimento
+### [check_fechamento_fonte_orcam_investimento](https://splor-mg.github.io/checks-planejamento/reference/check_fechamento_fonte_orcam_investimento.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_fechamento_fonte_orcam_investimento(sisor$base_orcam_receita_investimento, sisor$base_qdd_investimento, output = TRUE)
@@ -145,56 +145,56 @@ render_table(check$info)
 
 ## check_indicadores
 
-### check_indicadores_consistency_indice_de_referencia_exists
+### [check_indicadores_consistency_indice_de_referencia_exists](https://splor-mg.github.io/checks-planejamento/reference/check_indicadores_consistency_indice_de_referencia_exists.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_indicadores_consistency_indice_de_referencia_exists(sigplan$indicadores_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_indicadores_consistency_indice_de_referencia_missing
+### [check_indicadores_consistency_indice_de_referencia_missing](https://splor-mg.github.io/checks-planejamento/reference/check_indicadores_consistency_indice_de_referencia_missing.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_indicadores_consistency_indice_de_referencia_missing(sigplan$indicadores_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_indicadores_justificativa_indice_referencia_em_apuracao
+### [check_indicadores_justificativa_indice_referencia_em_apuracao](https://splor-mg.github.io/checks-planejamento/reference/check_indicadores_justificativa_indice_referencia_em_apuracao.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_indicadores_justificativa_indice_referencia_em_apuracao(sigplan$indicadores_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_indicadores_indice_referencia_data_futura
+### [check_indicadores_indice_referencia_data_futura](https://splor-mg.github.io/checks-planejamento/reference/check_indicadores_indice_referencia_data_futura.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_indicadores_indice_referencia_data_futura(sigplan$indicadores_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_indicadores_indice_referencia_exists
+### [check_indicadores_indice_referencia_exists](https://splor-mg.github.io/checks-planejamento/reference/check_indicadores_indice_referencia_exists.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_indicadores_indice_referencia_exists(sigplan$indicadores_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_indicadores_indice_referencia_zerado
+### [check_indicadores_indice_referencia_zerado](https://splor-mg.github.io/checks-planejamento/reference/check_indicadores_indice_referencia_zerado.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_indicadores_indice_referencia_zerado(sigplan$indicadores_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_indicadores_justificativa_previsao_em_apuracao
+### [check_indicadores_justificativa_previsao_em_apuracao](https://splor-mg.github.io/checks-planejamento/reference/check_indicadores_justificativa_previsao_em_apuracao.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_indicadores_justificativa_previsao_em_apuracao(sigplan$indicadores_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_indicadores_previsoes_exists
+### [check_indicadores_previsoes_exists](https://splor-mg.github.io/checks-planejamento/reference/check_indicadores_previsoes_exists.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_indicadores_previsoes_exists(sigplan$indicadores_planejamento, output = TRUE)
@@ -202,7 +202,7 @@ render_table(check$info)
 ```
 
 
-### check_indicadores_previsoes_zeradas
+### [check_indicadores_previsoes_zeradas](https://splor-mg.github.io/checks-planejamento/reference/check_indicadores_previsoes_zeradas.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_indicadores_previsoes_zeradas(sigplan$indicadores_planejamento, output = TRUE)
@@ -211,21 +211,21 @@ render_table(check$info)
 
 ## check_intra_orcamentaria
 
-### check_intra_despesa
+### [check_intra_despesa](https://splor-mg.github.io/checks-planejamento/reference/check_intra_despesa.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_intra_despesa(sisor$base_orcam_despesa_item_fiscal, sisor$base_intra_orcamentaria_repasse, output = TRUE)
 render_table(check$info)
 ```
 
-### check_intra_receita
+### [check_intra_receita](https://splor-mg.github.io/checks-planejamento/reference/check_intra_receita.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_intra_receita(sisor$base_orcam_receita_fiscal, sisor$base_intra_orcamentaria_repasse, output = TRUE)
 render_table(check$info)
 ```
 
-### check_intra_detalhamento
+### [check_intra_detalhamento](https://splor-mg.github.io/checks-planejamento/reference/check_intra_detalhamento.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_intra_detalhamento(sisor$base_intra_orcamentaria_detalhamento, output = TRUE)
@@ -234,14 +234,14 @@ render_table(check$info)
 
 ## check_limite
 
-### check_limite_ano0
+### [check_limite_ano0](https://splor-mg.github.io/checks-planejamento/reference/check_limite_ano0.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_limite_ano0(sisor$base_limite_cota, output = TRUE)
 render_table(check$info)
 ```
 
-### check_limite_plurianual
+### [check_limite_plurianual](https://splor-mg.github.io/checks-planejamento/reference/check_limite_plurianual.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_limite_plurianual(sisor$base_limite_cota, output = TRUE)
@@ -250,35 +250,35 @@ render_table(check$info)
 
 ## check_ods
 
-### check_ods_exists
+### [check_ods_exists](https://splor-mg.github.io/checks-planejamento/reference/check_ods_exists.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_ods_exists(sigplan$programas_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_ods_consistency
+### [check_ods_consistency](https://splor-mg.github.io/checks-planejamento/reference/check_ods_consistency.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_ods_consistency(sigplan$programas_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-## check_projetos_estrategicos
+## [check_projetos_estrategicos](https://splor-mg.github.io/checks-planejamento/reference/check_projetos_estrategicos.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_projetos_estrategicos(sigplan$acoes_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-## check_repasse_recursos
+## [check_repasse_recursos](https://splor-mg.github.io/checks-planejamento/reference/check_repasse_recursos.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_repasse_recursos(sisor$base_qdd_fiscal, sisor$base_repasse_recursos, output = TRUE)
 render_table(check$info)
 ```
 
-## check_setor_governo
+## [check_setor_governo](https://splor-mg.github.io/checks-planejamento/reference/check_setor_governo.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_setor_governo(sigplan$acoes_planejamento, aux$desc_setor_governo, output = TRUE)
@@ -287,14 +287,14 @@ render_table(check$info)
 
 ## check_valores_sigplan
 
-### check_valores_sigplan_localizadores
+### [check_valores_sigplan_localizadores](https://splor-mg.github.io/checks-planejamento/reference/check_valores_sigplan_localizadores.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_valores_sigplan_localizadores(sigplan$acoes_planejamento, sigplan$localizadores_todos_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_valores_sigplan_programas
+### [check_valores_sigplan_programas](https://splor-mg.github.io/checks-planejamento/reference/check_valores_sigplan_programas.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_valores_sigplan_programas(sigplan$acoes_planejamento, sigplan$programas_planejamento, output = TRUE)
@@ -303,35 +303,35 @@ render_table(check$info)
 
 ## check_valores_sigplan_sisor
 
-### check_valores_qdd_fiscal
+### [check_valores_qdd_fiscal](https://splor-mg.github.io/checks-planejamento/reference/check_valores_qdd_fiscal.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_valores_qdd_fiscal(sisor$base_qdd_fiscal, sigplan$acoes_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_valores_qdd_plurianual
+### [check_valores_qdd_plurianual](https://splor-mg.github.io/checks-planejamento/reference/check_valores_qdd_plurianual.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_valores_qdd_plurianual(sisor$base_qdd_plurianual, sigplan$acoes_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_valores_qdd_investimento
+### [check_valores_qdd_investimento](https://splor-mg.github.io/checks-planejamento/reference/check_valores_qdd_investimento.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_valores_qdd_investimento(sisor$base_qdd_investimento, sigplan$acoes_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-### check_valores_qdd_plurianual_invest
+### [check_valores_qdd_plurianual_invest](https://splor-mg.github.io/checks-planejamento/reference/check_valores_qdd_plurianual_invest.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_valores_qdd_plurianual_invest(sisor$base_qdd_plurianual_invest, sigplan$acoes_planejamento, output = TRUE)
 render_table(check$info)
 ```
 
-## check_valores_sisor
+## [check_valores_sisor](https://splor-mg.github.io/checks-planejamento/reference/check_valores_sisor.html)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_valores_sisor(sisor$base_qdd_fiscal, sisor$base_orcam_despesa_item_fiscal, output = TRUE)

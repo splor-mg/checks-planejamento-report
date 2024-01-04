@@ -1,9 +1,11 @@
-.PHONY: all check check-r check-py
+.PHONY: all render
 
-check: check-py check-r
+all: extract render
 
-check-r: 
-	Rscript checks/rstats/testthat.R 2> logs/logs-rstats.txt
+extract:
+	dpm install
 
-check-py:
-	python -m pytest --log-file=logs/logs-python.txt --log-format='%(asctime)s %(levelname)-5.5s [%(name)s] %(message)s' --log-date-format='%Y-%m-%dT%H:%M:%S%z'
+render: docs/index.html
+
+docs/index.html: report.Rmd
+	Rscript -e "rmarkdown::render('$<', output_file = 'index.html', output_dir = 'docs')"
