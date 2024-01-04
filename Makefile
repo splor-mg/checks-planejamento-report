@@ -7,5 +7,5 @@ extract:
 
 render: docs/index.html
 
-docs/index.html: report.Rmd
+docs/index.html: report.Rmd DESCRIPTION $(shell find datapackages -type f)
 	Rscript -e "rmarkdown::render('$<', output_file = 'index.html', output_dir = 'docs')"
