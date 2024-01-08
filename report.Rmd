@@ -85,6 +85,20 @@ render_table(check$info)
 
 ## check_detalhamento_obras
 
+### [check_detalhamento_obras_acoes_exists](https://splor-mg.github.io/checks-planejamento/reference/check_detalhamento_obras_acoes_exists.html)
+
+```{r, check=TRUE, echo=FALSE}
+check <- check_detalhamento_obras_acoes_exists(sisor$base_detalhamento_obras, sigplan$acoes_planejamento, output = TRUE)
+render_table(check$info)
+```
+
+### [check_detalhamento_obras_numero_siad_duplicated](https://splor-mg.github.io/checks-planejamento/reference/check_detalhamento_obras_numero_siad_duplicated.html)
+
+```{r, check=TRUE, echo=FALSE}
+check <- check_detalhamento_obras_numero_siad_duplicated(sisor$base_detalhamento_obras, output = TRUE)
+render_table(check$info)
+```
+
 ### [check_detalhamento_obras_orcam_fiscal_tesouro](https://splor-mg.github.io/checks-planejamento/reference/check_detalhamento_obras_orcam_fiscal_tesouro.html)
 
 ```{r, check=TRUE, echo=FALSE}
@@ -124,6 +138,15 @@ render_table(check$info)
 
 ```{r, check=TRUE, echo=FALSE}
 check <- check_detalhamento_obras_orcam_investimento_plurianual(sisor$base_qdd_plurianual_invest, sisor$base_detalhamento_obras, output = TRUE)
+render_table(check$info)
+```
+
+## check_detalhamento_pessoal
+
+### [check_detalhamento_pessoal_inativo_civil](https://splor-mg.github.io/checks-planejamento/reference/check_detalhamento_pessoal_inativo_civil.html)
+
+```{r, check=TRUE, echo=FALSE}
+check <- check_detalhamento_pessoal_inativo_civil(sisor$base_categoria_pessoal, sisor$base_qdd_fiscal, aux$ffp_acoes, output = TRUE)
 render_table(check$info)
 ```
 
