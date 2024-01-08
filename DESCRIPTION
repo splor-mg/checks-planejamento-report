@@ -2,7 +2,10 @@ Package: checksplanejamentoreport
 Imports:
     renv,
     checksplanejamento (>= 0.0.0.9002),
-    rmdformats
+    rmdformats,
+    sessioninfo,
+    jsonlite,
+    listviewer
 Encoding: UTF-8
 Remotes:
     github::splor-mg/checks-planejamento

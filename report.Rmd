@@ -337,3 +337,27 @@ render_table(check$info)
 check <- check_valores_sisor(sisor$base_qdd_fiscal, sisor$base_orcam_despesa_item_fiscal, output = TRUE)
 render_table(check$info)
 ```
+
+## Diagnóstico
+
+### Conjuntos de Dados
+
+```{r, echo = FALSE}
+sigplan_descriptor <- jsonlite::read_json("datapackages/sigplan/datapackage.json")
+sisor_descriptor <- jsonlite::read_json("datapackages/sisor/datapackage.json")
+aux_descriptor <- jsonlite::read_json("datapackages/auxiliares/datapackage.json")
+
+packages <- list(sigplan = sigplan_descriptor, 
+                 sisor = sisor_descriptor, 
+                 auxiliares = aux_descriptor) 
+listviewer::jsonedit(packages)
+```
+
+
+### Session Info
+
+```{r, echo = FALSE}
+sessioninfo::session_info()
+```
+
+</details>
