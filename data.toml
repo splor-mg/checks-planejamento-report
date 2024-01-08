@@ -10,4 +10,4 @@ path = "https://raw.githubusercontent.com/splor-mg/ppag-planejamento-dados-2024/
 
 [packages.auxiliares]
 path = "https://raw.githubusercontent.com/splor-mg/volumes-loa-dados/main/datapackage.json"
-resources = ["desc_setor_governo"]
+resources = ["desc_setor_governo", "ffp_acoes"]
