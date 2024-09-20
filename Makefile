@@ -1,11 +1,13 @@
-.PHONY: all render
+.PHONY: all check clean
 
-all: extract render
+all: clean extract check
 
 extract:
 	dpm install
 
-render: docs/index.html
+check: 
+	Rscript scripts/check.R
 
-docs/index.html: report.Rmd DESCRIPTION $(shell find datapackages -type f)
-	Rscript -e "rmarkdown::render('$<', output_file = 'index.html', output_dir = 'docs')"
+clean: 
+	rm checks-planejamento.jsonl checks-planejamento.xlsx
+	rm -rf datapackages/*
