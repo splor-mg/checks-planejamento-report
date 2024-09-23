@@ -1,7 +1,7 @@
 Package: checksplanejamentoreport
 Imports:
     renv,
-    checksplanejamento (== 0.1.4),
+    checksplanejamento (== 0.1.5),
     sessioninfo,
     jsonlite,
     glue,

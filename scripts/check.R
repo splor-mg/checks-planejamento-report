@@ -29,4 +29,4 @@ checks <- checksplanejamento::check_all(
 
 logs <- jsonlite::stream_in(file("checks-planejamento.jsonl")) |> data.table::as.data.table()
 stopifnot(nrow(checks[valid == FALSE]) == length(unique(logs$type)))
-writexl::write_xlsx(logs[, .(type, timestamp, message, valid)], glue::glue("checks-planejamento.xlsx"))
+data.table::fwrite(logs[, .(type, timestamp, message, valid)], "checks-planejamento.csv", bom = TRUE, dec = ",", sep = ";")

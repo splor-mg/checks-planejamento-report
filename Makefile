@@ -9,5 +9,5 @@ check:
 	Rscript scripts/check.R
 
 clean: 
-	rm checks-planejamento.jsonl checks-planejamento.xlsx
+	rm -f checks-planejamento.jsonl checks-planejamento.csv
 	rm -rf datapackages/*
