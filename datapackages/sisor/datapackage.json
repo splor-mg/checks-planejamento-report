@@ -267,7 +267,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:f62d63f9ef6ffa34713d27a2c320fc5f3a560b6e2c01339c21bd87e3c4adf8ac",
+      "hash": "sha256:6ab1cf48fed0484cac13c1246f98d24ddfd005501d3388d963b5a3469aa798b6",
       "bytes": 13397,
       "fields": 21,
       "rows": 43,
@@ -513,10 +513,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:a9d232e3fb5fa6aa9bf7365663f668c8b5ecdcd78af0c12bf466921068c3a97a",
-      "bytes": 78134,
+      "hash": "sha256:60aa94955a97a4b180412bcbd9b0d852600b3d6ab4b53c70f3632a8c19e3cc68",
+      "bytes": 78599,
       "fields": 24,
-      "rows": 319,
+      "rows": 321,
       "schema": {
         "fields": [
           {
@@ -937,7 +937,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:03da7b3222655de4e906cb6b3260e42109d4ee563c46a5cbfbcb9823f2f4baf8",
+      "hash": "sha256:859240c213ee527add643b50096dd2f6250d76afdd57cf85a5e951cfb2717682",
       "bytes": 578388,
       "fields": 24,
       "rows": 1173,
@@ -1231,7 +1231,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:fd96b97da6aa0feb589b997bfb4687732fada060ec8cbd7dda12279927ab1f85",
+      "hash": "sha256:51a15dfa3011f02209cbc51a67c14c00a134122e75ecc3e3936f45d539f36515",
       "bytes": 15295,
       "fields": 5,
       "rows": 338,
@@ -1337,7 +1337,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:8b961cf2f21212954ac46666e919837f4dbc47f30103d89a1f771fd5e0019fdc",
+      "hash": "sha256:391bdc49a88e07962d965d95821cf3a23f9eabc5a1e5ca0fee8c5397f798947f",
       "bytes": 42232,
       "fields": 15,
       "rows": 497,
@@ -1561,12 +1561,12 @@
       }
     }
   ],
-  "updated_at": "2024-09-24T16:21:38",
+  "updated_at": "2024-09-24T18:59:24",
   "remote": {
     "host": "raw.githubusercontent.com",
     "user": "splor-mg",
     "repo": "dados-sisor-2025",
     "ref": "main",
-    "sha": "0b9b9d25b477b33121cbffa23e0722d426b8993c"
+    "sha": "dccd4d49c8adb0c6647cdfb97c7694eb259acf40"
   }
 }
