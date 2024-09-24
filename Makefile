@@ -10,4 +10,5 @@ check:
 
 clean: 
 	rm -f checks-planejamento.jsonl checks-planejamento.csv
+	rm -f checks-planejamento-resumo.csv
 	rm -rf datapackages/*
