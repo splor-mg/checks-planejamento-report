@@ -11,8 +11,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:c3848202eb69d467c550ac9da508770e3473c51b558b1382ea793c497317d6f0",
-      "bytes": 2308159,
+      "hash": "sha256:05719c2bd00428a733b6c484ee002e05ba5d590b5ac2f423289bb31a42fecb2f",
+      "bytes": 2308182,
       "fields": 49,
       "rows": 1062,
       "schema": {
@@ -274,8 +274,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:285c90a202c1846120721d3a97840d1d00e49a71925a61fd2e80439e6e95ab6a",
-      "bytes": 120389,
+      "hash": "sha256:64bf89bab418e723ed3b6fc1fc879cdf60b413d11ecee6c6e9d20cf4ae1505d0",
+      "bytes": 120395,
       "fields": 26,
       "rows": 236,
       "schema": {
@@ -422,8 +422,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:8fb086979ca8b97ecb07a31405a863cc8a8b4983bad9fed494368713659fdd3d",
-      "bytes": 18631859,
+      "hash": "sha256:b763a4921a718474d90d881eb32eba1e8acae48d4ea273b76311e45dc6b1dd40",
+      "bytes": 18631882,
       "fields": 33,
       "rows": 51557,
       "schema": {
@@ -760,12 +760,12 @@
       }
     }
   ],
-  "updated_at": "2024-09-25T10:27:33",
+  "updated_at": "2024-09-25T11:14:19",
   "remote": {
     "host": "raw.githubusercontent.com",
     "user": "splor-mg",
     "repo": "dados-sigplan-planejamento-2025",
     "ref": "main",
-    "sha": "4146ccc0a88622e6ae8b52a04793a53ae37a132b"
+    "sha": "cb4928df53214d2421f0e5152a9da30c778aed09"
   }
 }
