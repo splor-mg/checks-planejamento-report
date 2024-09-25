@@ -937,10 +937,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:03da7b3222655de4e906cb6b3260e42109d4ee563c46a5cbfbcb9823f2f4baf8",
-      "bytes": 578388,
+      "hash": "sha256:ae472a74b38b3bbb56f6bcc6034d961660dcbd2ee594471acdaaf85d3de93144",
+      "bytes": 577860,
       "fields": 24,
-      "rows": 1173,
+      "rows": 1172,
       "schema": {
         "fields": [
           {
@@ -1163,10 +1163,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:c9d6271080a3659a99e99a495a07c37af2ba2bfd97194f2f73108fde5a686c73",
-      "bytes": 105947,
+      "hash": "sha256:e9397a3ffe07bb80948a87fb97211a5dfb4e206f9cda70fc06759f1b7d954856",
+      "bytes": 106618,
       "fields": 10,
-      "rows": 374,
+      "rows": 377,
       "schema": {
         "fields": [
           {
@@ -1231,10 +1231,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:50f68ad124169f7d0f23dd899e3be8675a7319df36dc4508aad855c7e0aec85c",
-      "bytes": 15440,
+      "hash": "sha256:ee46efa16110209329b8bc5b1b5a637768a41281e15b8de7790364bd301c6445",
+      "bytes": 15124,
       "fields": 5,
-      "rows": 341,
+      "rows": 334,
       "schema": {
         "fields": [
           {
@@ -1337,7 +1337,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:391bdc49a88e07962d965d95821cf3a23f9eabc5a1e5ca0fee8c5397f798947f",
+      "hash": "sha256:8b961cf2f21212954ac46666e919837f4dbc47f30103d89a1f771fd5e0019fdc",
       "bytes": 42232,
       "fields": 15,
       "rows": 497,
@@ -1561,12 +1561,12 @@
       }
     }
   ],
-  "updated_at": "2024-09-25T11:04:56",
+  "updated_at": "2024-09-25T16:45:18",
   "remote": {
     "host": "raw.githubusercontent.com",
     "user": "splor-mg",
     "repo": "dados-sisor-2025",
     "ref": "main",
-    "sha": "645fe5067e30b5d2a378c53d0612d648598a5d2e"
+    "sha": "36a3222a0bc762b21ac9ca88b14b11e388f9b9b0"
   }
 }
