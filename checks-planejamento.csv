@@ -68,9 +68,6 @@ check_indicadores_consistency_indice_de_referencia_missing;O programa 760 conté
 check_indicadores_consistency_indice_de_referencia_missing;O programa 760 contém indicador (ÍNDICE DE APROVEITAMENTO...) que, apesar não de ter índice de referência, está com meta para o ano 3.
 check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 760 contém indicador (ÍNDICE DE APROVEITAMENTO...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
 check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 760 contém indicador (ÍNDICE DE APROVEITAMENTO...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
-check_indicadores_indice_referencia_data_futura;O programa 7 contém indicador (PERCENTUAL DE CURSOS...) cujo índice de referência, apesar de não estar em apuração, apresenta data de apuração futura: 2024-09-30.
-check_indicadores_indice_referencia_data_futura;O programa 7 contém indicador (PERCENTUAL DE PROGRAMAS...) cujo índice de referência, apesar de não estar em apuração, apresenta data de apuração futura: 2024-09-30.
-check_indicadores_indice_referencia_data_futura;O programa 7 contém indicador (PERCENTUAL DE DOCENTES...) cujo índice de referência, apesar de não estar em apuração, apresenta data de apuração futura: 2024-09-30.
 check_indicadores_previsoes_zeradas;O programa 92 contém indicador (TAXA DE EXPANSÃO...) cuja previsão, apesar de não estar em apuração, está com valor zerado para o ano 3.
 check_indicadores_previsoes_zeradas;O programa 94 contém indicador (TAXA DE CRESCIMENTO...) cuja previsão, apesar de não estar em apuração, está com valor zerado para o ano 3.
 check_indicadores_previsoes_zeradas;O programa 129 contém indicador (MÉDIA TRIMESTRAL DE...) cuja previsão, apesar de não estar em apuração, está com valor zerado para o ano 3.
@@ -98,43 +95,43 @@ check_intra_detalhamento;A uo 4631 está com valor recebido de recursos intraor�
 check_intra_detalhamento;A uo 4661 está com valor recebido de recursos intraorçamentários (R$ 468.195,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
 check_intra_detalhamento;A uo 4711 está com valor recebido de recursos intraorçamentários (R$ 7.157.695.585,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
 check_limite_ano0;A uo 1231 está com uma diferença de R$ (10.000,00) entre o valor de limite no ano 0 (R$ 21.241.698,00) e a soma do valor utilizado no ano (R$ 21.251.698,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 21.251.698,00.
-check_limite_ano0;A uo 1481 está com uma diferença de R$ (389.621,00) entre o valor de limite no ano 0 (R$ 1.872.518,00) e a soma do valor utilizado no ano (R$ 2.262.139,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 2.262.139,00.
 check_limite_ano0;A uo 1481 está com uma diferença de R$ (44.472,00) entre o valor de limite no ano 0 (R$ 30.793.506,00) e a soma do valor utilizado no ano (R$ 30.837.978,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 30.837.978,00.
+check_limite_ano0;A uo 1481 está com uma diferença de R$ (389.621,00) entre o valor de limite no ano 0 (R$ 1.872.518,00) e a soma do valor utilizado no ano (R$ 2.262.139,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 2.262.139,00.
 check_limite_ano0;A uo 1481 está com uma diferença de R$ (5.092,00) entre o valor de limite no ano 0 (R$ 13.479.099,00) e a soma do valor utilizado no ano (R$ 13.484.191,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 13.484.191,00.
 check_limite_ano0;A uo 1721 está com uma diferença de R$ (15.692,00) entre o valor de limite no ano 0 (R$ 4.290.432,00) e a soma do valor utilizado no ano (R$ 4.306.124,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 4.306.124,00.
 check_limite_ano0;A uo 2011 está com uma diferença de R$ 5.582.278,00 entre o valor de limite no ano 0 (R$ 126.207.095,00) e a soma do valor utilizado no ano (R$ 120.624.817,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 120.624.817,00.
 check_limite_ano0;A uo 2101 está com uma diferença de R$ (1.000,00) entre o valor de limite no ano 0 (R$ 69.209.908,00) e a soma do valor utilizado no ano (R$ 69.210.908,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 69.210.908,00.
 check_limite_ano0;A uo 2321 está com uma diferença de R$ (859.682,00) entre o valor de limite no ano 0 (R$ 175.770.947,00) e a soma do valor utilizado no ano (R$ 176.630.629,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 176.630.629,00.
+check_limite_ano0;A uo 2331 está com uma diferença de R$ (195.847,00) entre o valor de limite no ano 0 (R$ 5.461.066,00) e a soma do valor utilizado no ano (R$ 5.656.913,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 5.656.913,00.
 check_limite_ano0;A uo 2331 está com uma diferença de R$ (1.665.355,00) entre o valor de limite no ano 0 (R$ 13.516.045,00) e a soma do valor utilizado no ano (R$ 15.181.400,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 15.181.400,00.
 check_limite_ano0;A uo 2331 está com uma diferença de R$ (198.964,00) entre o valor de limite no ano 0 (R$ 198.964,00) e a soma do valor utilizado no ano (R$ 397.928,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 397.928,00.
-check_limite_ano0;A uo 2331 está com uma diferença de R$ (195.847,00) entre o valor de limite no ano 0 (R$ 5.461.066,00) e a soma do valor utilizado no ano (R$ 5.656.913,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 5.656.913,00.
 check_limite_ano0;A uo 4341 está com uma diferença de R$ (875.000,00) entre o valor de limite no ano 0 (R$ 677.004,00) e a soma do valor utilizado no ano (R$ 1.552.004,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 1.552.004,00.
 check_limite_ano0;A uo 4381 está com uma diferença de R$ (578.100,00) entre o valor de limite no ano 0 (R$ 1.400.000,00) e a soma do valor utilizado no ano (R$ 578.100,00) com o valor transferido no ano (R$ 1.400.000,00), que totalizam R$ 1.978.100,00.
 check_limite_ano0;A uo 4381 está com uma diferença de R$ (46.757.524,00) entre o valor de limite no ano 0 (R$ 47.046.294,00) e a soma do valor utilizado no ano (R$ 46.757.524,00) com o valor transferido no ano (R$ 47.046.294,00), que totalizam R$ 93.803.818,00.
-check_limite_ano0;A uo 4711 está com uma diferença de R$ (1.356.781.614,00) entre o valor de limite no ano 0 (R$ 2.338.114.463,00) e a soma do valor utilizado no ano (R$ 2.338.114.463,00) com o valor transferido no ano (R$ 1.356.781.614,00), que totalizam R$ 3.694.896.077,00.
 check_limite_ano0;A uo 4711 está com uma diferença de R$ (1.886.309.787,00) entre o valor de limite no ano 0 (R$ 5.271.385.798,00) e a soma do valor utilizado no ano (R$ 5.271.385.798,00) com o valor transferido no ano (R$ 1.886.309.787,00), que totalizam R$ 7.157.695.585,00.
+check_limite_ano0;A uo 4711 está com uma diferença de R$ (1.356.781.614,00) entre o valor de limite no ano 0 (R$ 2.338.114.463,00) e a soma do valor utilizado no ano (R$ 2.338.114.463,00) com o valor transferido no ano (R$ 1.356.781.614,00), que totalizam R$ 3.694.896.077,00.
 check_limite_plurianual;A uo 1011 está com uma diferença de R$ -1000 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 1000).
-check_limite_plurianual;A uo 1031 está com uma diferença de R$ -971465122 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 971465122).
 check_limite_plurianual;A uo 1031 está com uma diferença de R$ -8185562477 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 8185562477).
+check_limite_plurianual;A uo 1031 está com uma diferença de R$ -971465122 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 971465122).
 check_limite_plurianual;A uo 1031 está com uma diferença de R$ -728293965 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 728293965).
-check_limite_plurianual;A uo 1051 está com uma diferença de R$ -14644689 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 14644689).
-check_limite_plurianual;A uo 1051 está com uma diferença de R$ -107073084 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 107073084).
 check_limite_plurianual;A uo 1051 está com uma diferença de R$ -1000 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 1000).
-check_limite_plurianual;A uo 1051 está com uma diferença de R$ -12039701 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 12039701).
 check_limite_plurianual;A uo 1051 está com uma diferença de R$ -17021727 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 17021727).
 check_limite_plurianual;A uo 1051 está com uma diferença de R$ -7322245 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 7322245).
+check_limite_plurianual;A uo 1051 está com uma diferença de R$ -12039701 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 12039701).
+check_limite_plurianual;A uo 1051 está com uma diferença de R$ -14644689 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 14644689).
+check_limite_plurianual;A uo 1051 está com uma diferença de R$ -107073084 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 107073084).
+check_limite_plurianual;A uo 1091 está com uma diferença de R$ -5200000 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 5200000).
+check_limite_plurianual;A uo 1091 está com uma diferença de R$ -2929409000 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 2929409000).
 check_limite_plurianual;A uo 1091 está com uma diferença de R$ -91562250 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 91562250).
 check_limite_plurianual;A uo 1091 está com uma diferença de R$ -1000 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 1000).
-check_limite_plurianual;A uo 1091 está com uma diferença de R$ -556622105 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 556622105).
-check_limite_plurianual;A uo 1091 está com uma diferença de R$ -2929409000 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 2929409000).
-check_limite_plurianual;A uo 1091 está com uma diferença de R$ -5200000 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 5200000).
-check_limite_plurianual;A uo 1091 está com uma diferença de R$ -215171450 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 215171450).
 check_limite_plurianual;A uo 1091 está com uma diferença de R$ -229784128 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 229784128).
+check_limite_plurianual;A uo 1091 está com uma diferença de R$ -215171450 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 215171450).
+check_limite_plurianual;A uo 1091 está com uma diferença de R$ -556622105 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 556622105).
 check_limite_plurianual;A uo 1401 está com uma diferença de R$ -3100000 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 3100000).
-check_limite_plurianual;A uo 1441 está com uma diferença de R$ -33299180 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 33299180).
-check_limite_plurianual;A uo 1441 está com uma diferença de R$ -12798150 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 12798150).
-check_limite_plurianual;A uo 1441 está com uma diferença de R$ -172313737 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 172313737).
 check_limite_plurianual;A uo 1441 está com uma diferença de R$ -751241000 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 751241000).
+check_limite_plurianual;A uo 1441 está com uma diferença de R$ -33299180 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 33299180).
+check_limite_plurianual;A uo 1441 está com uma diferença de R$ -172313737 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 172313737).
+check_limite_plurianual;A uo 1441 está com uma diferença de R$ -12798150 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 12798150).
 check_limite_plurianual;A uo 2101 está com uma diferença de R$ 153828 entre o valor de limite no ano 1 (R$ 153828) e o valor utilizado no mesmo ano (R$ 0).
 check_objetivos_estrategicos_exists;O programa 704 está sem objetivo estratégico válido na base programas-planejamento (3-Não há objetivo estratégico vinculado.). Cada programa precisa ter pelo menos um objetivo estratégico.
 check_objetivos_estrategicos_exists;O programa 706 está sem objetivo estratégico válido na base programas-planejamento (3-Não há objetivo estratégico vinculado.). Cada programa precisa ter pelo menos um objetivo estratégico.
