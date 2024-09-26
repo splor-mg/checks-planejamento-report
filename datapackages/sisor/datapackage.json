@@ -11,8 +11,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:8fa00c97f94bf12f8f66a24b2a90280fd7d18b3806bde5625eb11c5174b6f8bc",
-      "bytes": 2060908,
+      "hash": "sha256:d2e687e6b0192a0c36a3dda77dda3894ee36a19cc27570511e5bbf79121f0607",
+      "bytes": 2059988,
       "fields": 21,
       "rows": 9272,
       "schema": {
@@ -134,8 +134,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:9825ab5496b4efd23b6d8d7f590f37f73d0e2182107ed0e13f63963a4bfebc10",
-      "bytes": 573024,
+      "hash": "sha256:da648c5de828ef7e77e1b07c8d91b2ca2ad5db3b4649a6c581e1db8af320fa36",
+      "bytes": 572720,
       "fields": 23,
       "rows": 2015,
       "schema": {
@@ -267,7 +267,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:f62d63f9ef6ffa34713d27a2c320fc5f3a560b6e2c01339c21bd87e3c4adf8ac",
+      "hash": "sha256:6ab1cf48fed0484cac13c1246f98d24ddfd005501d3388d963b5a3469aa798b6",
       "bytes": 13397,
       "fields": 21,
       "rows": 43,
@@ -390,7 +390,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:f2ec2ca4eec6cf18b8b6d09515b3c93951e398618e90766a9056d18c0bed9546",
+      "hash": "sha256:134de638038f658b325f568c2146be92555688108b0ff48b1e92c19d484d9aa8",
       "bytes": 13354,
       "fields": 21,
       "rows": 43,
@@ -651,8 +651,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:026a05865e34d664841d1a8765e14c01fadb3bef7e0dc692ca4a72f7bac5634f",
-      "bytes": 1339979,
+      "hash": "sha256:8f6fc609c3573e0c5549f5c1e6d204e5fe612d76e3c4e69a12e2f1ac98a9c517",
+      "bytes": 1339443,
       "fields": 27,
       "rows": 4442,
       "schema": {
@@ -937,8 +937,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:ae472a74b38b3bbb56f6bcc6034d961660dcbd2ee594471acdaaf85d3de93144",
-      "bytes": 577860,
+      "hash": "sha256:c1bc485ac3455996963f1a20b0f71ce768d72fccf1d573957832d3f2b0b42d78",
+      "bytes": 577812,
       "fields": 24,
       "rows": 1172,
       "schema": {
@@ -1231,7 +1231,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:ee46efa16110209329b8bc5b1b5a637768a41281e15b8de7790364bd301c6445",
+      "hash": "sha256:35e168a9e2bdc47b6213df5bdb34565936c5aa22a17f4d7d896461410a71c314",
       "bytes": 15124,
       "fields": 5,
       "rows": 334,
@@ -1531,8 +1531,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:cd6f2c06e2ca87b56710f403cdc353c0c7c9b96764fc7c5a019b96deb99c0c1d",
-      "bytes": 11059,
+      "hash": "sha256:830f6e5a97b5d341d5660a609e7942a7fa0e4dbef9d585f383eb48ce71063e89",
+      "bytes": 11051,
       "fields": 4,
       "rows": 172,
       "schema": {
@@ -1561,12 +1561,12 @@
       }
     }
   ],
-  "updated_at": "2024-09-25T16:45:18",
+  "updated_at": "2024-09-25T19:32:04",
   "remote": {
     "host": "raw.githubusercontent.com",
     "user": "splor-mg",
     "repo": "dados-sisor-2025",
     "ref": "main",
-    "sha": "36a3222a0bc762b21ac9ca88b14b11e388f9b9b0"
+    "sha": "d1cc582c241cc8858f206dd32a8e1868142f23ae"
   }
 }
