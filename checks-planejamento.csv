@@ -57,8 +57,30 @@ check_indicadores_consistency_indice_de_referencia_missing;O programa 160 conté
 check_indicadores_consistency_indice_de_referencia_missing;O programa 760 contém indicador (INDICE DE APROVEITAMENTO...) que, apesar não de ter índice de referência, está com meta para o ano 3.
 check_indicadores_consistency_indice_de_referencia_missing;O programa 760 contém indicador (ÍNDICE DE APROVEITAMENTO...) que, apesar não de ter índice de referência, está com meta para o ano 3.
 check_indicadores_consistency_indice_de_referencia_missing;O programa 760 contém indicador (ÍNDICE DE APROVEITAMENTO...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 3 contém indicador (PERCENTUAL DE ELIMINAÇÃO...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 3 contém indicador (ÍNDICE DE EFETIVIDADE...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 5 contém indicador (ALCANCE DAS CAMPANHAS...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 11 contém indicador (TAXA DE MATERIAIS...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 18 contém indicador (PERCENTUAL DE CAMPANHAS...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 27 contém indicador (CAPACITAÇÃO EM INSTRUMENTOS...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 27 contém indicador (CAPACITAÇÃO EM GEOTECNOLOGIAS...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 27 contém indicador (PROJETOS DE PAGAMENTO...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 27 contém indicador (INCREMENTO DE ABRANGÊNCIA...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 27 contém indicador (EXECUÇÃO DAS METAS...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 47 contém indicador (ÍNDICE DE ATENDIMENTO...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 48 contém indicador (ÍNDICE DE ATENDIMENTO...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 64 contém indicador (NÚMERO DE MUNICÍPIOS...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 75 contém indicador (PERCENTUAL DE OBRA...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 91 contém indicador (PESQUISA/ATIVIDADE REALIZADA NA...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 91 contém indicador (TAXA DE EVASÃO...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 147 contém indicador (PERÍCIAS MÉDICAS AGENDADAS...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 160 contém indicador (EFICÁCIA DA GESTÃO...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 760 contém indicador (INDICE DE APROVEITAMENTO...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
 check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 760 contém indicador (ÍNDICE DE APROVEITAMENTO...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
 check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 760 contém indicador (ÍNDICE DE APROVEITAMENTO...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_previsao_em_apuracao;O programa 5 contém indicador (ALCANCE DAS CAMPANHAS...) que, apesar de estar sem previsão para o ano 0, apresenta justificativa de previsão inválida, com menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_previsao_em_apuracao;O programa 47 contém indicador (ÍNDICE DE ATENDIMENTO...) que, apesar de estar sem previsão para o ano 0, apresenta justificativa de previsão inválida, com menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_previsao_em_apuracao;O programa 75 contém indicador (PERCENTUAL DO COMPLEXO...) que, apesar de estar sem previsão para o ano 3, apresenta justificativa de previsão inválida, com menos de 50 caracteres (0 caract.).
 check_indicadores_previsoes_zeradas;O programa 94 contém indicador (TAXA DE CRESCIMENTO...) cuja previsão, apesar de não estar em apuração, está com valor zerado para o ano 3.
 check_indicadores_previsoes_zeradas;O programa 165 contém indicador (IDEB ANOS INICIAIS...) cuja previsão, apesar de não estar em apuração, está com valor zerado para o ano 3.
 check_indicadores_previsoes_zeradas;O programa 165 contém indicador (IDEB ENSINO MÉDIO...) cuja previsão, apesar de não estar em apuração, está com valor zerado para o ano 3.
@@ -138,5 +160,13 @@ check_ods_exists;O programa 8 está sem objetivo de desenvolvimento estratégico
 check_ods_exists;O programa 126 está sem objetivo de desenvolvimento estratégico definido.
 check_ods_exists;O programa 138 está sem objetivo de desenvolvimento estratégico definido.
 check_ods_exists;O programa 142 está sem objetivo de desenvolvimento estratégico definido.
+check_ods_consistency;O programa 703 está registrado tanto com a ods '18 - Não Possui ODS', quanto com a '16 - Paz, Justiça e Instituições Eficazes'.
+check_ods_consistency;O programa 703 está registrado tanto com a ods '18 - Não Possui ODS', quanto com a '16 - Paz, Justiça e Instituições Eficazes'.
+check_ods_consistency;O programa 714 está registrado tanto com a ods '18 - Não Possui ODS', quanto com a '16 - Paz, Justiça e Instituições Eficazes'.
+check_ods_consistency;O programa 714 está registrado tanto com a ods '18 - Não Possui ODS', quanto com a '16 - Paz, Justiça e Instituições Eficazes'.
+check_ods_consistency;O programa 737 está registrado tanto com a ods '18 - Não Possui ODS', quanto com a '16 - Paz, Justiça e Instituições Eficazes'.
+check_ods_consistency;O programa 737 está registrado tanto com a ods '18 - Não Possui ODS', quanto com a '16 - Paz, Justiça e Instituições Eficazes'.
+check_ods_consistency;O programa 738 está registrado tanto com a ods '18 - Não Possui ODS', quanto com a '16 - Paz, Justiça e Instituições Eficazes'.
+check_ods_consistency;O programa 738 está registrado tanto com a ods '18 - Não Possui ODS', quanto com a '16 - Paz, Justiça e Instituições Eficazes'.
 check_setor_governo;A uo 1917 está com setor divergente na base ações-planejamento (NA) em relação à tabela auxiliar setor-governo da loa (FAZENDA).
 check_setor_governo;A uo 4531 está com setor divergente na base ações-planejamento (NA) em relação à tabela auxiliar setor-governo da loa (DESENVOLVIMENTO ECONÔMICO).
