@@ -11,8 +11,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:f93fb4c94f5bb0ade27b371c143a049cbc7300824c17d5888cfb0d6c3978897a",
-      "bytes": 2291689,
+      "hash": "sha256:be2f217589e7a3790341a453517798205b4a6f628300eb89e4301da5e6736c0a",
+      "bytes": 2308186,
       "fields": 49,
       "rows": 1062,
       "schema": {
@@ -274,8 +274,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:72346c5a8d6ad94c5ec675849c0619fe4fd07569fc265271234771d382d4ca58",
-      "bytes": 116949,
+      "hash": "sha256:f773961a1ecd7a13c89b6e5f5068b229b59d9416d28ba75bd8420c564e6496f9",
+      "bytes": 120395,
       "fields": 26,
       "rows": 236,
       "schema": {
@@ -422,10 +422,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:2cd605b195a9d5af235c26443a582b32a1c6dee48f85d711d2e3a40b62a5dbea",
-      "bytes": 18631882,
+      "hash": "sha256:585e3ce2c8f7b11e8a07e619ee03df71ef599e4161d8ad857ba59888fb1105e5",
+      "bytes": 18635472,
       "fields": 33,
-      "rows": 51557,
+      "rows": 51567,
       "schema": {
         "fields": [
           {
@@ -605,10 +605,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:f29b98528736a57f6e37bb4fadf2c8f1a57f47f38a7528b8ac71b8cc6c9557d0",
-      "bytes": 7702436,
+      "hash": "sha256:9ab322960601fd28821a2fbb253676228332be8721cbc8460462711b20e788e0",
+      "bytes": 7697495,
       "fields": 29,
-      "rows": 2433,
+      "rows": 2429,
       "schema": {
         "fields": [
           {
@@ -760,12 +760,12 @@
       }
     }
   ],
-  "updated_at": "2024-09-30T10:17:13",
+  "updated_at": "2024-12-03T19:07:20",
   "remote": {
     "host": "raw.githubusercontent.com",
     "user": "splor-mg",
     "repo": "dados-sigplan-planejamento-2025",
     "ref": "main",
-    "sha": "254cddd267037a2222f39bd698128d0d1198597e"
+    "sha": "5616c024c2f65d138c70c2a14f1607568fa9c5c4"
   }
 }
