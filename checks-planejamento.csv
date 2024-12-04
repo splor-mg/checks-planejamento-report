@@ -1,5 +1,4 @@
 ﻿type;message
-check_count_acoes;A ação 4426, uo 1071, consta na base ações-planejamento (desc.: GESTÃO DA ...) em inconsistência com a base localizadores (NA).
 check_count_acoes_is_deleted;A ação 1032, uo 1261, consta como deletada na base ações-planejamento (desc.: MODALLIDADES E ...) em inconsistência com a base localizadores (NA).
 check_count_acoes_is_deleted;A ação 4504, uo 1261, consta como deletada na base ações-planejamento (desc.: RECRUTAMENTO E ...) em inconsistência com a base localizadores (NA).
 check_count_acoes_is_deleted;A ação 2417, uo 1271, consta como deletada na base ações-planejamento (desc.: REMUNERAÇÃO DE ...) em inconsistência com a base localizadores (NA).
@@ -141,4 +140,3 @@ check_ods_exists;O programa 138 está sem objetivo de desenvolvimento estratégi
 check_ods_exists;O programa 142 está sem objetivo de desenvolvimento estratégico definido.
 check_setor_governo;A uo 1917 está com setor divergente na base ações-planejamento (NA) em relação à tabela auxiliar setor-governo da loa (FAZENDA).
 check_setor_governo;A uo 4531 está com setor divergente na base ações-planejamento (NA) em relação à tabela auxiliar setor-governo da loa (DESENVOLVIMENTO ECONÔMICO).
-check_valores_sigplan_localizadores;A uo 1071, programa 46, ação 4426, função 6, subfunção 781, área temática 12AT12 está com valor de meta orçamentária do ano 0, base localizadores (R$  NA) diferente da base ações-planejamento (R$ 8.307.057,00). Diferença de R$ 8307057.

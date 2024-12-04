@@ -1,5 +1,4 @@
 ﻿type;Número de Erros
-check_count_acoes;1
 check_count_acoes_is_deleted;19
 check_fechamento_fonte_orcam_fiscal;20
 check_indicadores_consistency_indice_de_referencia_exists;1
@@ -12,4 +11,3 @@ check_limite_plurianual;23
 check_objetivos_estrategicos_exists;12
 check_ods_exists;4
 check_setor_governo;2
-check_valores_sigplan_localizadores;1
