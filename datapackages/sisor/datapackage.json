@@ -134,10 +134,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:6073649c7c8acdab99dfebaec0856e81069cf213c93829a6b8c3643958b23cd4",
-      "bytes": 599352,
+      "hash": "sha256:ea7256cc88a97a90a0e535f20bbe24538ec0549a07e9b3e87be34664b648cac4",
+      "bytes": 627076,
       "fields": 23,
-      "rows": 2114,
+      "rows": 2212,
       "schema": {
         "fields": [
           {
@@ -267,7 +267,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:52e2090df382651039dadf370d57dfc2b8f5eb11eeb6ee9895c74d3819693aaf",
+      "hash": "sha256:f62d63f9ef6ffa34713d27a2c320fc5f3a560b6e2c01339c21bd87e3c4adf8ac",
       "bytes": 13397,
       "fields": 21,
       "rows": 43,
@@ -651,8 +651,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:4a18f74fb2330d89f9fd39fcb6e60acd5ab9ef7eedd02d53104c8ad456c93b9e",
-      "bytes": 1394224,
+      "hash": "sha256:4bf44bc8b23b99ea9f5937d45eff7c42aab0bef4c354e20a53f7769726d95d45",
+      "bytes": 1394147,
       "fields": 27,
       "rows": 4619,
       "schema": {
@@ -937,7 +937,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:7d7730b6a26baeef2fb8358643afd99da7d3f867ea42d7b5311785c0c9864a6a",
+      "hash": "sha256:21aee3812f0b0b93279c669490875b44a10fecaef5a5d3fb59182038d2c58477",
       "bytes": 579999,
       "fields": 24,
       "rows": 1178,
@@ -1337,7 +1337,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:33f69982e9da063b1cb1ad34f9da2e5ef082804258cb4b4e6c90024ad230585b",
+      "hash": "sha256:65496415dd81012f2aaadda24caf329ac447677625dfcee3d1eb5104ad1399cf",
       "bytes": 42181,
       "fields": 15,
       "rows": 496,
@@ -1561,12 +1561,12 @@
       }
     }
   ],
-  "updated_at": "2025-01-16T12:32:43",
+  "updated_at": "2025-01-16T17:44:27",
   "remote": {
     "host": "raw.githubusercontent.com",
     "user": "splor-mg",
     "repo": "dados-sisor-2025",
     "ref": "main",
-    "sha": "57ae033c9e9209593573dc50f9b06142e1cbe7e2"
+    "sha": "f1fe149df6106bec99541a000173a07f9de2ec90"
   }
 }
