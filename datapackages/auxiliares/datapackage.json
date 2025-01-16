@@ -79,12 +79,12 @@
       }
     }
   ],
-  "updated_at": "2024-12-03T19:44:13",
+  "updated_at": "2024-12-05T11:01:00",
   "remote": {
     "host": "raw.githubusercontent.com",
     "user": "splor-mg",
     "repo": "dados-volumes-loa",
     "ref": "main",
-    "sha": "516b6b28926cadcf7e4f0ab4687d1df96bc61ade"
+    "sha": "f4085fbb671c1c148977a1cfda6eb9c0dede3a2a"
   }
 }

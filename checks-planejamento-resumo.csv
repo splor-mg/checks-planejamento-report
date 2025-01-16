@@ -6,8 +6,10 @@ check_indicadores_consistency_indice_de_referencia_missing;19
 check_indicadores_justificativa_indice_referencia_em_apuracao;2
 check_indicadores_previsoes_zeradas;7
 check_intra_detalhamento;18
-check_limite_ano0;14
+check_limite_ano0;18
 check_limite_plurianual;23
 check_objetivos_estrategicos_exists;12
 check_ods_exists;4
 check_setor_governo;2
+check_valores_qdd_fiscal;116
+check_valores_qdd_plurianual;49

@@ -605,8 +605,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:9ab322960601fd28821a2fbb253676228332be8721cbc8460462711b20e788e0",
-      "bytes": 7697495,
+      "hash": "sha256:736790f4b7768b182c51345e45caaeeb71f27fa2ff90104ec3e77835271c7462",
+      "bytes": 7696905,
       "fields": 29,
       "rows": 2429,
       "schema": {
@@ -760,12 +760,12 @@
       }
     }
   ],
-  "updated_at": "2024-12-03T21:40:01",
+  "updated_at": "2024-12-05T14:56:09",
   "remote": {
     "host": "raw.githubusercontent.com",
     "user": "splor-mg",
     "repo": "dados-sigplan-planejamento-2025",
     "ref": "main",
-    "sha": "9a02f8aa53c4b02ab360dd3e4bda2b556d73dfd9"
+    "sha": "b6920a595bc2e31bf4d983d6bde30cabe2a8c764"
   }
 }
