@@ -1,0 +1,90 @@
+{
+  "name": "volumes-loa-dados",
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "ffp_acoes",
+      "type": "table",
+      "profile": "tabular-data-resource",
+      "path": "data/ffp_acoes.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "hash": "sha256:19a74e411dc1f7d7405df6ffeaf75aa378e7835780e3c3953da0b3c4d83c2a2a",
+      "bytes": 2782,
+      "fields": 3,
+      "rows": 57,
+      "schema": {
+        "fields": [
+          {
+            "name": "cod_uo",
+            "type": "integer",
+            "source": "COD_UO"
+          },
+          {
+            "name": "acao",
+            "type": "integer",
+            "source": "ACAO"
+          },
+          {
+            "name": "descritivo_acao",
+            "type": "string",
+            "source": "DESCRITIVO_ACAO"
+          }
+        ]
+      }
+    },
+    {
+      "name": "desc_setor_governo",
+      "type": "table",
+      "profile": "tabular-data-resource",
+      "path": "data/desc_setor_governo.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "hash": "sha256:6b43ca62e6bbe44145fa661563b6e5335e253e0c308954a3a995506cc1e51220",
+      "bytes": 15301,
+      "fields": 5,
+      "rows": 115,
+      "schema": {
+        "fields": [
+          {
+            "name": "uo_cod",
+            "type": "integer",
+            "source": "Cód. UO Ação"
+          },
+          {
+            "name": "uo_nome",
+            "type": "string",
+            "source": "UO Ação"
+          },
+          {
+            "name": "setor_governo_desc",
+            "type": "string",
+            "source": "Setor de Governo"
+          },
+          {
+            "name": "orgao_cod",
+            "type": "integer",
+            "source": "Cód Órgão"
+          },
+          {
+            "name": "orgao_nome",
+            "type": "string",
+            "source": "Descrição Órgão"
+          }
+        ]
+      }
+    }
+  ],
+  "updated_at": "2024-12-05T11:01:00",
+  "remote": {
+    "host": "raw.githubusercontent.com",
+    "user": "splor-mg",
+    "repo": "dados-volumes-loa",
+    "ref": "main",
+    "sha": "f4085fbb671c1c148977a1cfda6eb9c0dede3a2a"
+  }
+}

@@ -1,11 +1,14 @@
 Package: checksplanejamentoreport
 Imports:
     renv,
-    checksplanejamento (== 0.1.0),
-    rmdformats,
+    checksplanejamento (== 0.1.6),
     sessioninfo,
     jsonlite,
-    listviewer
+    glue,
+    data.table,
+    dpm (== 0.1.2),
+    writexl
 Encoding: UTF-8
 Remotes:
-    github::splor-mg/checks-planejamento
+    github::splor-mg/checks-planejamento,
+    github::splor-mg/dpm-r

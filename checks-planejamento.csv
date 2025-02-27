@@ -1,0 +1,148 @@
+﻿type;message
+check_count_acoes_is_deleted;A ação 1032, uo 1261, consta como deletada na base ações-planejamento (desc.: MODALLIDADES E ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 4504, uo 1261, consta como deletada na base ações-planejamento (desc.: RECRUTAMENTO E ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 2417, uo 1271, consta como deletada na base ações-planejamento (desc.: REMUNERAÇÃO DE ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 4118, uo 1301, consta como deletada na base ações-planejamento (desc.: LOTE OURO ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 4124, uo 1301, consta como deletada na base ações-planejamento (desc.: LOTE OURO ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 4160, uo 1301, consta como deletada na base ações-planejamento (desc.: REGULAÇÃO DE ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 4161, uo 1301, consta como deletada na base ações-planejamento (desc.: REGULAÇÃO DE ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 2417, uo 1481, consta como deletada na base ações-planejamento (desc.: REMUNERAÇÃO DE ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 4542, uo 1481, consta como deletada na base ações-planejamento (desc.: ENFRENTAMENTO À ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 4551, uo 1481, consta como deletada na base ações-planejamento (desc.: POLÍTICA DE ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 2417, uo 1501, consta como deletada na base ações-planejamento (desc.: REMUNERAÇÃO DE ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 2417, uo 1541, consta como deletada na base ações-planejamento (desc.: REMUNERAÇÃO DE ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 7019, uo 1916, consta como deletada na base ações-planejamento (desc.: GESTÃO DE ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 2022, uo 2071, consta como deletada na base ações-planejamento (desc.: REMUNERAÇÃO DE ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 1029, uo 2161, consta como deletada na base ações-planejamento (desc.: REALIZAÇÃO DE ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 1031, uo 2311, consta como deletada na base ações-planejamento (desc.: REMUNERAÇÃO DE ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 2417, uo 2331, consta como deletada na base ações-planejamento (desc.: REMUNERAÇÃO DE ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 2417, uo 2371, consta como deletada na base ações-planejamento (desc.: REMUNERAÇÃO DE ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 2417, uo 2441, consta como deletada na base ações-planejamento (desc.: REMUNERAÇÃO DE ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 4535, uo 4251, consta como deletada na base ações-planejamento (desc.: PISO MINEIRO ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 2034, uo 4291, consta como deletada na base ações-planejamento (desc.: REMUNERAÇÃO DE ...) em inconsistência com a base localizadores (NA).
+check_count_acoes_is_deleted;A ação 2013, uo 4631, consta como deletada na base ações-planejamento (desc.: CONCESSÕES DE ...) em inconsistência com a base localizadores (NA).
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 10 está com os valores totais de receita e despesa diferentes nas bases. R$ 76.205.969.192,00 na base orçamento fiscal da receita, e 86.079.301.809,00 na qdd fiscal. A diferença é de R$ -9873332617.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 12 está com os valores totais de receita e despesa diferentes nas bases. R$ 837,00 na base orçamento fiscal da receita, e  NA na qdd fiscal. A diferença é de R$ 837.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 20 está com os valores totais de receita e despesa diferentes nas bases. R$ 0,00 na base orçamento fiscal da receita, e  NA na qdd fiscal. A diferença é de R$ NA.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 31 está com os valores totais de receita e despesa diferentes nas bases. R$ 71.657.243,00 na base orçamento fiscal da receita, e 53.079.966,00 na qdd fiscal. A diferença é de R$ 18577277.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 32 está com os valores totais de receita e despesa diferentes nas bases. R$ 375.829.398,00 na base orçamento fiscal da receita, e 309.878.193,00 na qdd fiscal. A diferença é de R$ 65951205.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 33 está com os valores totais de receita e despesa diferentes nas bases. R$ 37.947.881,00 na base orçamento fiscal da receita, e 36.352.549,00 na qdd fiscal. A diferença é de R$ 1595332.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 40 está com os valores totais de receita e despesa diferentes nas bases. R$ 3.400,00 na base orçamento fiscal da receita, e  NA na qdd fiscal. A diferença é de R$ 3400.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 46 está com os valores totais de receita e despesa diferentes nas bases. R$ 1.071,00 na base orçamento fiscal da receita, e  NA na qdd fiscal. A diferença é de R$ 1071.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 47 está com os valores totais de receita e despesa diferentes nas bases. R$ 11.650.190,00 na base orçamento fiscal da receita, e 10.798.190,00 na qdd fiscal. A diferença é de R$ 852000.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 48 está com os valores totais de receita e despesa diferentes nas bases. R$ 21.883.351,00 na base orçamento fiscal da receita, e  NA na qdd fiscal. A diferença é de R$ 21883351.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 50 está com os valores totais de receita e despesa diferentes nas bases. R$ 2.000.062.373,00 na base orçamento fiscal da receita, e 1.865.809.982,00 na qdd fiscal. A diferença é de R$ 134252391.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 52 está com os valores totais de receita e despesa diferentes nas bases. R$ 45.490.846,00 na base orçamento fiscal da receita, e 34.123.470,00 na qdd fiscal. A diferença é de R$ 11367376.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 53 está com os valores totais de receita e despesa diferentes nas bases. R$ 3.207,00 na base orçamento fiscal da receita, e  NA na qdd fiscal. A diferença é de R$ 3207.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 59 está com os valores totais de receita e despesa diferentes nas bases. R$ 167.991.037,00 na base orçamento fiscal da receita, e 137.471.457,00 na qdd fiscal. A diferença é de R$ 30519580.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 60 está com os valores totais de receita e despesa diferentes nas bases. R$ 3.806.453.528,00 na base orçamento fiscal da receita, e 2.917.277.248,00 na qdd fiscal. A diferença é de R$ 889176280.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 61 está com os valores totais de receita e despesa diferentes nas bases. R$ 308.958.375,00 na base orçamento fiscal da receita, e 282.962.599,00 na qdd fiscal. A diferença é de R$ 25995776.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 72 está com os valores totais de receita e despesa diferentes nas bases. R$ 380.355.187,00 na base orçamento fiscal da receita, e 346.197.639,00 na qdd fiscal. A diferença é de R$ 34157548.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 82 está com os valores totais de receita e despesa diferentes nas bases. R$ 137.459.096,00 na base orçamento fiscal da receita, e 121.995.841,00 na qdd fiscal. A diferença é de R$ 15463255.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 91 está com os valores totais de receita e despesa diferentes nas bases. R$ 108.888.189,00 na base orçamento fiscal da receita, e 80.155.046,00 na qdd fiscal. A diferença é de R$ 28733143.
+check_fechamento_fonte_orcam_fiscal;A Fonte de Recurso 94 está com os valores totais de receita e despesa diferentes nas bases. R$ 9.844.803,00 na base orçamento fiscal da receita, e 9.603.727,00 na qdd fiscal. A diferença é de R$ 241076.
+check_indicadores_consistency_indice_de_referencia_exists;O programa 75 contém indicador (PERCENTUAL DO COMPLEXO...) que, apesar de ter índice de referência de 20, está sem meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 3 contém indicador (PERCENTUAL DE ELIMINAÇÃO...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 3 contém indicador (ÍNDICE DE EFETIVIDADE...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 11 contém indicador (TAXA DE MATERIAIS...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 18 contém indicador (PERCENTUAL DE CAMPANHAS...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 27 contém indicador (CAPACITAÇÃO EM INSTRUMENTOS...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 27 contém indicador (CAPACITAÇÃO EM GEOTECNOLOGIAS...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 27 contém indicador (PROJETOS DE PAGAMENTO...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 27 contém indicador (INCREMENTO DE ABRANGÊNCIA...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 27 contém indicador (EXECUÇÃO DAS METAS...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 48 contém indicador (ÍNDICE DE ATENDIMENTO...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 64 contém indicador (NÚMERO DE MUNICÍPIOS...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 75 contém indicador (PERCENTUAL DE OBRA...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 91 contém indicador (PESQUISA/ATIVIDADE REALIZADA NA...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 91 contém indicador (TAXA DE EVASÃO...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 147 contém indicador (PERÍCIAS MÉDICAS AGENDADAS...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 160 contém indicador (EFICÁCIA DA GESTÃO...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 760 contém indicador (INDICE DE APROVEITAMENTO...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 760 contém indicador (ÍNDICE DE APROVEITAMENTO...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_consistency_indice_de_referencia_missing;O programa 760 contém indicador (ÍNDICE DE APROVEITAMENTO...) que, apesar não de ter índice de referência, está com meta para o ano 3.
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 760 contém indicador (ÍNDICE DE APROVEITAMENTO...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_justificativa_indice_referencia_em_apuracao;O programa 760 contém indicador (ÍNDICE DE APROVEITAMENTO...) que está em apuração, porém com justificativa de status inválida, menos de 50 caracteres (0 caract.).
+check_indicadores_previsoes_zeradas;O programa 94 contém indicador (TAXA DE CRESCIMENTO...) cuja previsão, apesar de não estar em apuração, está com valor zerado para o ano 3.
+check_indicadores_previsoes_zeradas;O programa 165 contém indicador (IDEB ANOS INICIAIS...) cuja previsão, apesar de não estar em apuração, está com valor zerado para o ano 3.
+check_indicadores_previsoes_zeradas;O programa 165 contém indicador (IDEB ENSINO MÉDIO...) cuja previsão, apesar de não estar em apuração, está com valor zerado para o ano 3.
+check_indicadores_previsoes_zeradas;O programa 165 contém indicador (IDEB ANOS FINAIS...) cuja previsão, apesar de não estar em apuração, está com valor zerado para o ano 3.
+check_indicadores_previsoes_zeradas;O programa 167 contém indicador (IDEB ANOS INICIAIS...) cuja previsão, apesar de não estar em apuração, está com valor zerado para o ano 3.
+check_indicadores_previsoes_zeradas;O programa 167 contém indicador (IDEB ENSINO MÉDIO...) cuja previsão, apesar de não estar em apuração, está com valor zerado para o ano 3.
+check_indicadores_previsoes_zeradas;O programa 167 contém indicador (IDEB ANOS FINAIS...) cuja previsão, apesar de não estar em apuração, está com valor zerado para o ano 3.
+check_intra_detalhamento;A uo 1401 está com valor recebido de recursos intraorçamentários (R$ 633.000,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_intra_detalhamento;A uo 1451 está com valor recebido de recursos intraorçamentários (R$ 192.680.044,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_intra_detalhamento;A uo 1541 está com valor recebido de recursos intraorçamentários (R$ 24.910.765,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_intra_detalhamento;A uo 2011 está com valor recebido de recursos intraorçamentários (R$ 452.419.585,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_intra_detalhamento;A uo 2121 está com valor recebido de recursos intraorçamentários (R$ 2.263.837.510,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_intra_detalhamento;A uo 2251 está com valor recebido de recursos intraorçamentários (R$ 18.000,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_intra_detalhamento;A uo 2261 está com valor recebido de recursos intraorçamentários (R$ 612.201.552,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_intra_detalhamento;A uo 2271 está com valor recebido de recursos intraorçamentários (R$ 2.147.817.226,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_intra_detalhamento;A uo 2321 está com valor recebido de recursos intraorçamentários (R$ 453.417.789,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_intra_detalhamento;A uo 2361 está com valor recebido de recursos intraorçamentários (R$ 14.868.000,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_intra_detalhamento;A uo 3051 está com valor recebido de recursos intraorçamentários (R$ 120.000,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_intra_detalhamento;A uo 4031 está com valor recebido de recursos intraorçamentários (R$ 87.426.030,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_intra_detalhamento;A uo 4441 está com valor recebido de recursos intraorçamentários (R$ 50.000,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_intra_detalhamento;A uo 4451 está com valor recebido de recursos intraorçamentários (R$ 8.000.000,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_intra_detalhamento;A uo 4631 está com valor recebido de recursos intraorçamentários (R$ 2.000,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_intra_detalhamento;A uo 4661 está com valor recebido de recursos intraorçamentários (R$ 468.195,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_intra_detalhamento;A uo 4711 está com valor recebido de recursos intraorçamentários (R$ 7.157.695.585,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_intra_detalhamento;A uo 9901 está com valor recebido de recursos intraorçamentários (R$ 545.754.463,00) diferente do valor detalhado (R$ 0,00) na base intra-detalhamento.
+check_limite_ano0;A uo 1231 está com uma diferença de R$ (10.000,00) entre o valor de limite no ano 0 (R$ 21.241.698,00) e a soma do valor utilizado no ano (R$ 21.251.698,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 21.251.698,00.
+check_limite_ano0;A uo 1481 está com uma diferença de R$ (44.472,00) entre o valor de limite no ano 0 (R$ 30.793.506,00) e a soma do valor utilizado no ano (R$ 30.837.978,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 30.837.978,00.
+check_limite_ano0;A uo 1481 está com uma diferença de R$ (5.092,00) entre o valor de limite no ano 0 (R$ 13.479.099,00) e a soma do valor utilizado no ano (R$ 13.484.191,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 13.484.191,00.
+check_limite_ano0;A uo 1481 está com uma diferença de R$ (389.621,00) entre o valor de limite no ano 0 (R$ 1.872.518,00) e a soma do valor utilizado no ano (R$ 2.262.139,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 2.262.139,00.
+check_limite_ano0;A uo 1491 está com uma diferença de R$ 15.035.000,00 entre o valor de limite no ano 0 (R$ 350.000.000,00) e a soma do valor utilizado no ano (R$ 334.965.000,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 334.965.000,00.
+check_limite_ano0;A uo 1491 está com uma diferença de R$ 1.278.257.562,00 entre o valor de limite no ano 0 (R$ 1.312.822.299,00) e a soma do valor utilizado no ano (R$ 34.564.737,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 34.564.737,00.
+check_limite_ano0;A uo 1721 está com uma diferença de R$ (15.692,00) entre o valor de limite no ano 0 (R$ 4.290.432,00) e a soma do valor utilizado no ano (R$ 4.306.124,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 4.306.124,00.
+check_limite_ano0;A uo 1991 está com uma diferença de R$ 15.035.000,00 entre o valor de limite no ano 0 (R$ 1.053.098.607,00) e a soma do valor utilizado no ano (R$ 1.038.063.607,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 1.038.063.607,00.
+check_limite_ano0;A uo 2011 está com uma diferença de R$ 5.582.278,00 entre o valor de limite no ano 0 (R$ 126.207.095,00) e a soma do valor utilizado no ano (R$ 120.624.817,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 120.624.817,00.
+check_limite_ano0;A uo 2321 está com uma diferença de R$ (859.682,00) entre o valor de limite no ano 0 (R$ 175.770.947,00) e a soma do valor utilizado no ano (R$ 176.630.629,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 176.630.629,00.
+check_limite_ano0;A uo 2331 está com uma diferença de R$ (195.847,00) entre o valor de limite no ano 0 (R$ 5.461.066,00) e a soma do valor utilizado no ano (R$ 5.656.913,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 5.656.913,00.
+check_limite_ano0;A uo 2331 está com uma diferença de R$ (1.665.355,00) entre o valor de limite no ano 0 (R$ 13.516.045,00) e a soma do valor utilizado no ano (R$ 15.181.400,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 15.181.400,00.
+check_limite_ano0;A uo 2331 está com uma diferença de R$ (198.964,00) entre o valor de limite no ano 0 (R$ 198.964,00) e a soma do valor utilizado no ano (R$ 397.928,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 397.928,00.
+check_limite_ano0;A uo 4291 está com uma diferença de R$ 920.794.395,00 entre o valor de limite no ano 0 (R$ 10.236.330.625,00) e a soma do valor utilizado no ano (R$ 9.315.536.230,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 9.315.536.230,00.
+check_limite_ano0;A uo 4341 está com uma diferença de R$ (875.000,00) entre o valor de limite no ano 0 (R$ 677.004,00) e a soma do valor utilizado no ano (R$ 1.552.004,00) com o valor transferido no ano (R$ 0,00), que totalizam R$ 1.552.004,00.
+check_limite_ano0;A uo 4381 está com uma diferença de R$ (46.757.524,00) entre o valor de limite no ano 0 (R$ 47.046.294,00) e a soma do valor utilizado no ano (R$ 46.757.524,00) com o valor transferido no ano (R$ 47.046.294,00), que totalizam R$ 93.803.818,00.
+check_limite_ano0;A uo 4381 está com uma diferença de R$ (578.100,00) entre o valor de limite no ano 0 (R$ 1.400.000,00) e a soma do valor utilizado no ano (R$ 578.100,00) com o valor transferido no ano (R$ 1.400.000,00), que totalizam R$ 1.978.100,00.
+check_limite_plurianual;A uo 1011 está com uma diferença de R$ -1000 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 1000).
+check_limite_plurianual;A uo 1031 está com uma diferença de R$ -971465122 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 971465122).
+check_limite_plurianual;A uo 1031 está com uma diferença de R$ -8185562477 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 8185562477).
+check_limite_plurianual;A uo 1031 está com uma diferença de R$ -728293965 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 728293965).
+check_limite_plurianual;A uo 1051 está com uma diferença de R$ -12039701 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 12039701).
+check_limite_plurianual;A uo 1051 está com uma diferença de R$ -17021727 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 17021727).
+check_limite_plurianual;A uo 1051 está com uma diferença de R$ -107073084 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 107073084).
+check_limite_plurianual;A uo 1051 está com uma diferença de R$ -1000 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 1000).
+check_limite_plurianual;A uo 1051 está com uma diferença de R$ -7322245 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 7322245).
+check_limite_plurianual;A uo 1051 está com uma diferença de R$ -14644689 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 14644689).
+check_limite_plurianual;A uo 1091 está com uma diferença de R$ -215171450 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 215171450).
+check_limite_plurianual;A uo 1091 está com uma diferença de R$ -229784128 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 229784128).
+check_limite_plurianual;A uo 1091 está com uma diferença de R$ -2929409000 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 2929409000).
+check_limite_plurianual;A uo 1091 está com uma diferença de R$ -5200000 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 5200000).
+check_limite_plurianual;A uo 1091 está com uma diferença de R$ -556622105 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 556622105).
+check_limite_plurianual;A uo 1091 está com uma diferença de R$ -1000 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 1000).
+check_limite_plurianual;A uo 1091 está com uma diferença de R$ -91562250 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 91562250).
+check_limite_plurianual;A uo 1401 está com uma diferença de R$ -3100000 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 3100000).
+check_limite_plurianual;A uo 1441 está com uma diferença de R$ -172313737 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 172313737).
+check_limite_plurianual;A uo 1441 está com uma diferença de R$ -751241000 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 751241000).
+check_limite_plurianual;A uo 1441 está com uma diferença de R$ -33299180 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 33299180).
+check_limite_plurianual;A uo 1441 está com uma diferença de R$ -12798150 entre o valor de limite no ano 1 (R$ 0) e o valor utilizado no mesmo ano (R$ 12798150).
+check_limite_plurianual;A uo 2101 está com uma diferença de R$ 153828 entre o valor de limite no ano 1 (R$ 153828) e o valor utilizado no mesmo ano (R$ 0).
+check_objetivos_estrategicos_exists;O programa 704 está sem objetivo estratégico válido na base programas-planejamento (3-Não há objetivo estratégico vinculado.). Cada programa precisa ter pelo menos um objetivo estratégico.
+check_objetivos_estrategicos_exists;O programa 706 está sem objetivo estratégico válido na base programas-planejamento (3-Não há objetivo estratégico vinculado.). Cada programa precisa ter pelo menos um objetivo estratégico.
+check_objetivos_estrategicos_exists;O programa 726 está sem objetivo estratégico válido na base programas-planejamento (3-Não há objetivo estratégico vinculado.). Cada programa precisa ter pelo menos um objetivo estratégico.
+check_objetivos_estrategicos_exists;O programa 729 está sem objetivo estratégico válido na base programas-planejamento (3-Não há objetivo estratégico vinculado.). Cada programa precisa ter pelo menos um objetivo estratégico.
+check_objetivos_estrategicos_exists;O programa 734 está sem objetivo estratégico válido na base programas-planejamento (3-Não há objetivo estratégico vinculado.). Cada programa precisa ter pelo menos um objetivo estratégico.
+check_objetivos_estrategicos_exists;O programa 738 está sem objetivo estratégico válido na base programas-planejamento (3-Não há objetivo estratégico vinculado.). Cada programa precisa ter pelo menos um objetivo estratégico.
+check_objetivos_estrategicos_exists;O programa 746 está sem objetivo estratégico válido na base programas-planejamento (3-Não há objetivo estratégico vinculado.). Cada programa precisa ter pelo menos um objetivo estratégico.
+check_objetivos_estrategicos_exists;O programa 760 está sem objetivo estratégico válido na base programas-planejamento (3-Não há objetivo estratégico vinculado.). Cada programa precisa ter pelo menos um objetivo estratégico.
+check_objetivos_estrategicos_exists;O programa 764 está sem objetivo estratégico válido na base programas-planejamento (3-Não há objetivo estratégico vinculado.). Cada programa precisa ter pelo menos um objetivo estratégico.
+check_objetivos_estrategicos_exists;O programa 765 está sem objetivo estratégico válido na base programas-planejamento (3-Não há objetivo estratégico vinculado.). Cada programa precisa ter pelo menos um objetivo estratégico.
+check_objetivos_estrategicos_exists;O programa 766 está sem objetivo estratégico válido na base programas-planejamento (3-Não há objetivo estratégico vinculado.). Cada programa precisa ter pelo menos um objetivo estratégico.
+check_objetivos_estrategicos_exists;O programa 767 está sem objetivo estratégico válido na base programas-planejamento (3-Não há objetivo estratégico vinculado.). Cada programa precisa ter pelo menos um objetivo estratégico.
+check_ods_exists;O programa 8 está sem objetivo de desenvolvimento estratégico definido.
+check_ods_exists;O programa 126 está sem objetivo de desenvolvimento estratégico definido.
+check_ods_exists;O programa 138 está sem objetivo de desenvolvimento estratégico definido.
+check_ods_exists;O programa 142 está sem objetivo de desenvolvimento estratégico definido.
+check_setor_governo;A uo 1917 está com setor divergente na base ações-planejamento (NA) em relação à tabela auxiliar setor-governo da loa (FAZENDA).
+check_setor_governo;A uo 4531 está com setor divergente na base ações-planejamento (NA) em relação à tabela auxiliar setor-governo da loa (DESENVOLVIMENTO ECONÔMICO).

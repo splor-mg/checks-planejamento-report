@@ -3,5 +3,6 @@
 .RData
 .Ruserdata
 venv/
-datapackages/
+datapackages/**/*.*
+!datapackages/**/datapackage.json
 docs/
