@@ -11,10 +11,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:78d1e491e0ecc90bc38b1cc90fd9f558a039f90c6e0e815e6d7f71648530b7f7",
-      "bytes": 2316903,
+      "hash": "sha256:9da1a4955eef5db0ab3b2149bf91621237fdad653dc587ec54bfba5942e49900",
+      "bytes": 2322632,
       "fields": 49,
-      "rows": 1065,
+      "rows": 1069,
       "schema": {
         "fields": [
           {
@@ -422,10 +422,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:6b0015aa1a78d5f9e27082af732cac1639a397c4e212822d9036280218929cf4",
-      "bytes": 19138209,
+      "hash": "sha256:e9773c30d87dd5d26739a55ec2d42090be643967518b7476ed9a11a9d71f1d56",
+      "bytes": 19140549,
       "fields": 33,
-      "rows": 52812,
+      "rows": 52815,
       "schema": {
         "fields": [
           {
@@ -605,10 +605,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:abd2c387e5959f01e961f42e3a2bf48f40389517442d47b0bac570d7ae5482b3",
-      "bytes": 7704440,
+      "hash": "sha256:5d359c1cb02e9455c55146bee88b7159664ddca2834731a4f33c7708d44ed0e1",
+      "bytes": 7728984,
       "fields": 29,
-      "rows": 2429,
+      "rows": 2438,
       "schema": {
         "fields": [
           {
@@ -760,12 +760,12 @@
       }
     }
   ],
-  "updated_at": "2025-01-16T21:24:52",
+  "updated_at": "2025-05-08T15:24:27",
   "remote": {
     "host": "raw.githubusercontent.com",
     "user": "splor-mg",
     "repo": "dados-sigplan-planejamento-2025",
     "ref": "main",
-    "sha": "6d9252cd926b6d53ef6facae3e4e762ac45ec039"
+    "sha": "01d0e0d66336509d8652f65819ffa84ac4f9ebab"
   }
 }
