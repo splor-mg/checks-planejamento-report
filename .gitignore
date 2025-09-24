@@ -6,3 +6,4 @@ venv/
 datapackages/**/*.*
 !datapackages/**/datapackage.json
 docs/
+.venv/
