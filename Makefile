@@ -2,19 +2,19 @@
 
 DATAPACKAGES := $(wildcard datapackages/*/datapackage.json)
 
-all: clean extract check
+all: clean extract check excel zip
+
+clean:
+	rm -f checks-planejamento.jsonl
+	rm -rf datapackages/*
+	rm -rf data/*/*.xlsx
+	rm -rf data/*.xlsx
 
 extract:
 	dpm install
 
 check:
 	Rscript scripts/check.R
-
-clean:
-	rm -f checks-planejamento.jsonl checks-planejamento.csv
-	rm -f checks-planejamento-resumo.csv
-	rm -rf datapackages/*
-	rm -rf data/*/*.xlsx
 
 excel:
 	@for dp in $(DATAPACKAGES); do \
@@ -23,4 +23,4 @@ excel:
 	done
 
 zip:
-	zip -r "$$(date +%Y%m%d%H%M%S)_all_excels.zip" data -i "*.xlsx"
+	zip -r "reports.zip" data -i "*.xlsx"
