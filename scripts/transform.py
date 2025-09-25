@@ -9,7 +9,7 @@ def transform_resource(source_descriptor: str):
         table = resource.to_pandas()
         table = table.map(clean_illegal_chars)
         sheet_name = sanitize_sheet_name(resource.name)
-        table.to_excel(f"data-results/{package.name}/{resource.name}.xlsx",
+        table.to_excel(f"data/{package.name}/{resource.name}.xlsx",
             sheet_name=sheet_name,
             index=False
         )

@@ -23,4 +23,4 @@ excel:
 	done
 
 zip:
-	zip -r "$$(date +%Y%m%d%H%M%S)_all_excels.zip" data-results -i "*.xlsx"
+	zip -r "$$(date +%Y%m%d%H%M%S)_all_excels.zip" data -i "*.xlsx"

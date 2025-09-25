@@ -42,5 +42,5 @@ write_xlsx(
     logs = logs[, .(type, message)],
     resumo = error_summary
   ),
-  path = "data-results/checks-planejamento.xlsx"
+  path = "data/checks-planejamento.xlsx"
 )
