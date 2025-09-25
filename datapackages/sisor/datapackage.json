@@ -11,10 +11,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:708f9f94dbd3d3965ec9d3251c345098cdeac0aebd3c592bca745546ae14a12b",
-      "bytes": 2103849,
+      "hash": "sha256:ba2ed0417c66a8936c7653ecc49a6049f01a61569365900946db1714a111b51c",
+      "bytes": 2121990,
       "fields": 21,
-      "rows": 9464,
+      "rows": 9548,
       "schema": {
         "fields": [
           {
@@ -134,10 +134,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:a2302da2a4f15ca68be30e005d3b376331af5707bb65ec9b54d81fb2c8b20539",
-      "bytes": 621752,
+      "hash": "sha256:c4a040637fc56b5075468aa38238e7ac6d64e6dcd57b1a0734e18407d5a71785",
+      "bytes": 554551,
       "fields": 23,
-      "rows": 2212,
+      "rows": 1955,
       "schema": {
         "fields": [
           {
@@ -238,22 +238,22 @@
           {
             "name": "vlr_loa_desp_ano0",
             "type": "number",
-            "source": "VALOR (R$) 2025"
+            "source": "VALOR (R$) 2026"
           },
           {
             "name": "vlr_loa_desp_ano1",
             "type": "number",
-            "source": "VALOR (R$) 2026"
+            "source": "VALOR (R$) 2027"
           },
           {
             "name": "vlr_loa_desp_ano2",
             "type": "number",
-            "source": "VALOR (R$) 2027"
+            "source": "VALOR (R$) 2028"
           },
           {
             "name": "vlr_loa_desp_ano3",
             "type": "number",
-            "source": "VALOR (R$) 2028"
+            "source": "VALOR (R$) 2029"
           }
         ]
       }
@@ -267,10 +267,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:a02d3b402c5a36035e70defa6bcf47c2fab8b10af6388a777984f51cd5294714",
-      "bytes": 13397,
+      "hash": "sha256:fc1f1ce9798be421ff7a6e0aa44495343e1fabccd1dcfb8c9beb421f8d5c7c1e",
+      "bytes": 14884,
       "fields": 21,
-      "rows": 43,
+      "rows": 47,
       "schema": {
         "fields": [
           {
@@ -361,22 +361,22 @@
           {
             "name": "vlr_loa_desp_invest_ano0",
             "type": "number",
-            "source": "VALOR (R$) 2025"
+            "source": "VALOR (R$) 2026"
           },
           {
             "name": "vlr_loa_desp_invest_ano1",
             "type": "number",
-            "source": "VALOR (R$) 2026"
+            "source": "VALOR (R$) 2027"
           },
           {
             "name": "vlr_loa_desp_invest_ano2",
             "type": "number",
-            "source": "VALOR (R$) 2027"
+            "source": "VALOR (R$) 2028"
           },
           {
             "name": "vlr_loa_desp_invest_ano3",
             "type": "number",
-            "source": "VALOR (R$) 2028"
+            "source": "VALOR (R$) 2029"
           }
         ]
       }
@@ -390,10 +390,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:f2ec2ca4eec6cf18b8b6d09515b3c93951e398618e90766a9056d18c0bed9546",
-      "bytes": 13354,
+      "hash": "sha256:907e912173fdcfcd4fec6773c9dd60373dd452b4736d0f3505f9eed8af90fd7f",
+      "bytes": 14752,
       "fields": 21,
-      "rows": 43,
+      "rows": 47,
       "schema": {
         "fields": [
           {
@@ -484,22 +484,22 @@
           {
             "name": "vlr_loa_desp_invest_ano0",
             "type": "number",
-            "source": "Valor (R$) 2025"
+            "source": "Valor (R$) 2026"
           },
           {
             "name": "vlr_loa_desp_invest_ano1",
             "type": "number",
-            "source": "Valor (R$) 2026"
+            "source": "Valor (R$) 2027"
           },
           {
             "name": "vlr_loa_desp_invest_ano2",
             "type": "number",
-            "source": "Valor (R$) 2027"
+            "source": "Valor (R$) 2028"
           },
           {
             "name": "vlr_loa_desp_invest_ano3",
             "type": "number",
-            "source": "Valor (R$) 2028"
+            "source": "Valor (R$) 2029"
           }
         ]
       }
@@ -513,10 +513,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:cae330427353c4decf1b6f82f604356849b8b0ab35e43663591fc15965609256",
-      "bytes": 78600,
+      "hash": "sha256:5a7e98625fd2bea8cd0ba4b9dfbcfd0205acfa5d030aa8bd8fde137d919be544",
+      "bytes": 72141,
       "fields": 24,
-      "rows": 321,
+      "rows": 267,
       "schema": {
         "fields": [
           {
@@ -602,42 +602,42 @@
           {
             "name": "vlr_tesouro_ano0",
             "type": "number",
-            "source": "VALOR TESOURO 2025 (R$)"
+            "source": "VALOR TESOURO 2026 (R$)"
           },
           {
             "name": "vlr_outros_ano0",
             "type": "number",
-            "source": "VALOR OUTROS 2025 (R$)"
+            "source": "VALOR OUTROS 2026 (R$)"
           },
           {
             "name": "vlr_tesouro_ano1",
             "type": "number",
-            "source": "VALOR TESOURO 2026 (R$)"
+            "source": "VALOR TESOURO 2027 (R$)"
           },
           {
             "name": "vlr_outros_ano1",
             "type": "number",
-            "source": "VALOR OUTROS 2026 (R$)"
+            "source": "VALOR OUTROS 2027 (R$)"
           },
           {
             "name": "vlr_tesouro_ano2",
             "type": "number",
-            "source": "VALOR TESOURO 2027 (R$)"
+            "source": "VALOR TESOURO 2028 (R$)"
           },
           {
             "name": "vlr_outros_ano2",
             "type": "number",
-            "source": "VALOR OUTROS 2027 (R$)"
+            "source": "VALOR OUTROS 2028 (R$)"
           },
           {
             "name": "vlr_tesouro_ano3",
             "type": "number",
-            "source": "VALOR TESOURO 2028 (R$)"
+            "source": "VALOR TESOURO 2029 (R$)"
           },
           {
             "name": "vlr_outros_ano3",
             "type": "number",
-            "source": "VALOR OUTROS 2028 (R$)"
+            "source": "VALOR OUTROS 2029 (R$)"
           }
         ]
       }
@@ -651,10 +651,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:ada9c98f081a0948674cb3de24203dc02ed24b5869a4c2ace0af77eed5ef7af4",
-      "bytes": 1393501,
+      "hash": "sha256:b887a38465325a1e0efa1a71982c2fc3fce7415bc8d0cb125bdb2ac8841fafda",
+      "bytes": 1337165,
       "fields": 27,
-      "rows": 4617,
+      "rows": 4432,
       "schema": {
         "fields": [
           {
@@ -804,10 +804,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:41e8766842f6ef278c925e2645c6a2a81d3911c1241c4611d99b5269aa22472a",
-      "bytes": 18638,
+      "hash": "sha256:a35cbf0ff0fd436b324e3f4b4e0ebdf3ffa213a31f103f4aab2b1f60ceb08b36",
+      "bytes": 20832,
       "fields": 23,
-      "rows": 43,
+      "rows": 47,
       "schema": {
         "fields": [
           {
@@ -937,10 +937,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:bcde5d28184fe942b59618bcbeb40e57b90ce881a1296d0a644f25bb79fa65d2",
-      "bytes": 579948,
+      "hash": "sha256:aac8d05465c0e409a10b591503ef33afa7f874798f7c90d9ba4e49e04344ac4d",
+      "bytes": 519318,
       "fields": 24,
-      "rows": 1178,
+      "rows": 1139,
       "schema": {
         "fields": [
           {
@@ -1075,8 +1075,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:566116b37b68ae9f5b19cda3f2df6941aa3d887a1233d712e9b376ed02921b84",
-      "bytes": 2718,
+      "hash": "sha256:ad6652d4bd8a977d0299cbbaac230e0d7be2ceeca7d1b46c9ee11410fc121b22",
+      "bytes": 2722,
       "fields": 14,
       "rows": 19,
       "schema": {
@@ -1163,10 +1163,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:542a10976d72b3869c7c6f96fd3271f802e60a487d13f6cfd151d51df07e9a0a",
-      "bytes": 184031,
+      "hash": "sha256:8dc507c357336dbc61bbc7fa6cb99d4234235fc40dc629846493210456463869",
+      "bytes": 87636,
       "fields": 10,
-      "rows": 628,
+      "rows": 279,
       "schema": {
         "fields": [
           {
@@ -1231,8 +1231,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:d99d72c084d5c1733e55e06e4b1c6adb2b8a6349bf2cd885bc4ad989a18fb344",
-      "bytes": 15124,
+      "hash": "sha256:dcf753a8dd0f59d71f017b5e78b174fcc4a2a407a619f579478149986b1b9ca5",
+      "bytes": 15171,
       "fields": 5,
       "rows": 334,
       "schema": {
@@ -1274,10 +1274,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:d4a89f7db7907587c58993b15425cfda7078229227ba4c943776c7aefeae477b",
-      "bytes": 7695,
+      "hash": "sha256:8925f92b6490465e60d1109562cf7d825c26bd2824eb185f630a305ef5e9f579",
+      "bytes": 7585,
       "fields": 9,
-      "rows": 57,
+      "rows": 56,
       "schema": {
         "fields": [
           {
@@ -1337,10 +1337,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:65496415dd81012f2aaadda24caf329ac447677625dfcee3d1eb5104ad1399cf",
-      "bytes": 42181,
+      "hash": "sha256:8e7922d3ad56079968d3b9084d96aa7e1f31e0994480daf05af85689956d49c1",
+      "bytes": 43395,
       "fields": 15,
-      "rows": 496,
+      "rows": 506,
       "schema": {
         "fields": [
           {
@@ -1376,12 +1376,12 @@
           {
             "name": "vlr_limite_ano0",
             "type": "number",
-            "source": "Valor Limite 2025"
+            "source": "Valor Limite 2026"
           },
           {
             "name": "vlr_utilizado_ano0",
             "type": "number",
-            "source": "Valor Utilizado 2025"
+            "source": "Valor Utilizado 2026"
           },
           {
             "name": "vlr_transferido",
@@ -1391,32 +1391,32 @@
           {
             "name": "vlr_limite_ano1",
             "type": "number",
-            "source": "Valor Limite 2026"
+            "source": "Valor Limite 2027"
           },
           {
             "name": "vlr_utilizado_ano1",
             "type": "number",
-            "source": "Valor Utilizado 2026"
+            "source": "Valor Utilizado 2027"
           },
           {
             "name": "vlr_limite_ano2",
             "type": "number",
-            "source": "Valor Limite 2027"
+            "source": "Valor Limite 2028"
           },
           {
             "name": "vlr_utilizado_ano2",
             "type": "number",
-            "source": "Valor Utilizado 2027"
+            "source": "Valor Utilizado 2028"
           },
           {
             "name": "vlr_limite_ano3",
             "type": "number",
-            "source": "Valor Limite 2028"
+            "source": "Valor Limite 2029"
           },
           {
             "name": "vlr_utilizado_ano3",
             "type": "number",
-            "source": "Valor Utilizado 2028"
+            "source": "Valor Utilizado 2029"
           }
         ]
       }
@@ -1430,10 +1430,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:60931db338e244351e54b41799efe34059dd4a2dd45bcae7dcd2a4fe4cbb72d8",
-      "bytes": 466,
+      "hash": "sha256:12199e4122c3497a333f0a6c114f0f2455e2f28d31cb57c68a1b21a632259162",
+      "bytes": 423,
       "fields": 4,
-      "rows": 18,
+      "rows": 16,
       "schema": {
         "fields": [
           {
@@ -1468,10 +1468,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:21351a5696f209b1083c237b33b39b3294e289287e6ecf438d22bb5f850aa01d",
-      "bytes": 78932,
+      "hash": "sha256:339bbd9c551ea19591bdfb179cd81749aed24b0487ff0b10661c240e0486c99a",
+      "bytes": 76109,
       "fields": 9,
-      "rows": 409,
+      "rows": 391,
       "schema": {
         "fields": [
           {
@@ -1531,7 +1531,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:211923947cec7ac5f8f91554ddec53ef3f62a6e940f8d245bbd9d38a7d7a4e74",
+      "hash": "sha256:51a95fd6559398f4583b0815beaca43b9af1e7a76724ee17c3a09a3d5a28ec9e",
       "bytes": 11371,
       "fields": 4,
       "rows": 178,
@@ -1561,12 +1561,12 @@
       }
     }
   ],
-  "updated_at": "2025-08-29T10:32:33",
+  "updated_at": "2025-09-24T14:17:38",
   "remote": {
     "host": "raw.githubusercontent.com",
     "user": "splor-mg",
-    "repo": "dados-sisor-2025",
+    "repo": "dados-sisor-2026",
     "ref": "main",
-    "sha": "79c283f46a46fede8863dc41d43830e898f92eb9"
+    "sha": "01559bb87108019b1c498947d9b9e012b03ce996"
   }
 }

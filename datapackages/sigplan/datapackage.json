@@ -1,5 +1,5 @@
 {
-  "name": "ppag2025-dadosmg",
+  "name": "ppag2026-dadosmg",
   "profile": "tabular-data-package",
   "resources": [
     {
@@ -11,10 +11,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:9da1a4955eef5db0ab3b2149bf91621237fdad653dc587ec54bfba5942e49900",
-      "bytes": 2322632,
+      "hash": "sha256:478e7828667c08592b3ba129213beb35d9ad7c3b65645888a866e49eee541875",
+      "bytes": 2275836,
       "fields": 49,
-      "rows": 1069,
+      "rows": 1040,
       "schema": {
         "fields": [
           {
@@ -210,42 +210,42 @@
           {
             "name": "vr_meta_orcamentaria_ano0",
             "type": "number",
-            "source": "Previsão Orçamentária 2025"
+            "source": "Previsão Orçamentária 2026"
           },
           {
             "name": "vr_meta_orcamentaria_ano1",
             "type": "number",
-            "source": "Previsão Orçamentária 2026"
+            "source": "Previsão Orçamentária 2027"
           },
           {
             "name": "vr_meta_orcamentaria_ano2",
             "type": "number",
-            "source": "Previsão Orçamentária 2027"
+            "source": "Previsão Orçamentária 2028"
           },
           {
             "name": "vr_meta_orcamentaria_ano3",
             "type": "number",
-            "source": "Previsão Orçamentária 2028"
+            "source": "Previsão Orçamentária 2029"
           },
           {
             "name": "vr_meta_fisica_ano0",
             "type": "integer",
-            "source": "Previsão Física 2025"
+            "source": "Previsão Física 2026"
           },
           {
             "name": "vr_meta_fisica_ano1",
             "type": "integer",
-            "source": "Previsão Física 2026"
+            "source": "Previsão Física 2027"
           },
           {
             "name": "vr_meta_fisica_ano2",
             "type": "integer",
-            "source": "Previsão Física 2027"
+            "source": "Previsão Física 2028"
           },
           {
             "name": "vr_meta_fisica_ano3",
             "type": "integer",
-            "source": "Previsão Física 2028"
+            "source": "Previsão Física 2029"
           },
           {
             "name": "is_acao_transposta",
@@ -274,10 +274,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:f773961a1ecd7a13c89b6e5f5068b229b59d9416d28ba75bd8420c564e6496f9",
-      "bytes": 120395,
+      "hash": "sha256:9745a19efb2211821828cf4deafa3fdb4a3015f4fc06e6a495af2a768036d5da",
+      "bytes": 121582,
       "fields": 26,
-      "rows": 236,
+      "rows": 237,
       "schema": {
         "fields": [
           {
@@ -328,42 +328,42 @@
           {
             "name": "previsao_para_ano0",
             "type": "number",
-            "source": "Previsão para 2025"
+            "source": "Previsão para 2026"
           },
           {
             "name": "is_em_apuracao_ano0",
             "type": "boolean",
-            "source": "Em apuração? (2025)"
+            "source": "Em apuração? (2026)"
           },
           {
             "name": "previsao_para_ano1",
             "type": "number",
-            "source": "Previsão para 2026"
+            "source": "Previsão para 2027"
           },
           {
             "name": "is_em_apuracao_ano1",
             "type": "boolean",
-            "source": "Em apuração? (2026)"
+            "source": "Em apuração? (2027)"
           },
           {
             "name": "previsao_para_ano2",
             "type": "number",
-            "source": "Previsão para 2027"
+            "source": "Previsão para 2028"
           },
           {
             "name": "is_em_apuracao_ano2",
             "type": "boolean",
-            "source": "Em apuração? (2027)"
+            "source": "Em apuração? (2028)"
           },
           {
             "name": "previsao_para_ano3",
             "type": "number",
-            "source": "Previsão para 2028"
+            "source": "Previsão para 2029"
           },
           {
             "name": "is_em_apuracao_ano3",
             "type": "boolean",
-            "source": "Em apuração? (2028)"
+            "source": "Em apuração? (2029)"
           },
           {
             "name": "fonte",
@@ -422,10 +422,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:e9773c30d87dd5d26739a55ec2d42090be643967518b7476ed9a11a9d71f1d56",
-      "bytes": 19140549,
+      "hash": "sha256:71c712cc3dd48e9122cb969ef32fb89fa71211320c799994756da8c428b0f924",
+      "bytes": 16090708,
       "fields": 33,
-      "rows": 52815,
+      "rows": 43773,
       "schema": {
         "fields": [
           {
@@ -556,42 +556,42 @@
           {
             "name": "vr_meta_orcamentaria_ano0",
             "type": "number",
-            "source": "Previsão Orçamentária 2025"
+            "source": "Previsão Orçamentária 2026"
           },
           {
             "name": "vr_meta_fisica_ano0",
             "type": "integer",
-            "source": "Previsão Física 2025"
+            "source": "Previsão Física 2026"
           },
           {
             "name": "vr_meta_orcamentaria_ano1",
             "type": "number",
-            "source": "Previsão Orçamentária 2026"
+            "source": "Previsão Orçamentária 2027"
           },
           {
             "name": "vr_meta_fisica_ano1",
             "type": "integer",
-            "source": "Previsão Física 2026"
+            "source": "Previsão Física 2027"
           },
           {
             "name": "vr_meta_orcamentaria_ano2",
             "type": "number",
-            "source": "Previsão Orçamentária 2027"
+            "source": "Previsão Orçamentária 2028"
           },
           {
             "name": "vr_meta_fisica_ano2",
             "type": "integer",
-            "source": "Previsão Física 2027"
+            "source": "Previsão Física 2028"
           },
           {
             "name": "vr_meta_orcamentaria_ano3",
             "type": "number",
-            "source": "Previsão Orçamentária 2028"
+            "source": "Previsão Orçamentária 2029"
           },
           {
             "name": "vr_meta_fisica_ano3",
             "type": "integer",
-            "source": "Previsão Física 2028"
+            "source": "Previsão Física 2029"
           }
         ]
       }
@@ -605,10 +605,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:5d359c1cb02e9455c55146bee88b7159664ddca2834731a4f33c7708d44ed0e1",
-      "bytes": 7728984,
+      "hash": "sha256:b4216b79daa9b63e4d0675cb9e5e3223b59575a105c0f29f2b9aacc5b01f0f05",
+      "bytes": 8181776,
       "fields": 29,
-      "rows": 2438,
+      "rows": 2565,
       "schema": {
         "fields": [
           {
@@ -719,22 +719,22 @@
           {
             "name": "vr_meta_orcamentaria_ano0",
             "type": "number",
-            "source": "Previsão Orçamentária 2025"
+            "source": "Previsão Orçamentária 2026"
           },
           {
             "name": "vr_meta_orcamentaria_ano1",
             "type": "number",
-            "source": "Previsão Orçamentária 2026"
+            "source": "Previsão Orçamentária 2027"
           },
           {
             "name": "vr_meta_orcamentaria_ano2",
             "type": "number",
-            "source": "Previsão Orçamentária 2027"
+            "source": "Previsão Orçamentária 2028"
           },
           {
             "name": "vr_meta_orcamentaria_ano3",
             "type": "number",
-            "source": "Previsão Orçamentária 2028"
+            "source": "Previsão Orçamentária 2029"
           },
           {
             "name": "is_programa_transposto",
@@ -760,12 +760,12 @@
       }
     }
   ],
-  "updated_at": "2025-05-08T15:24:27",
+  "updated_at": "2025-09-24T16:32:50",
   "remote": {
     "host": "raw.githubusercontent.com",
     "user": "splor-mg",
-    "repo": "dados-sigplan-planejamento-2025",
+    "repo": "dados-sigplan-planejamento-2026",
     "ref": "main",
-    "sha": "01d0e0d66336509d8652f65819ffa84ac4f9ebab"
+    "sha": "61c0c70ebbe4a1284ab0a05624d21fb0efb52b6d"
   }
 }
