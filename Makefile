@@ -14,7 +14,7 @@ clean:
 	rm -f checks-planejamento.jsonl checks-planejamento.csv
 	rm -f checks-planejamento-resumo.csv
 	rm -rf datapackages/*
-	rm -rf data-results/*/*.xlsx
+	rm -rf data/*/*.xlsx
 
 excel:
 	@for dp in $(DATAPACKAGES); do \
