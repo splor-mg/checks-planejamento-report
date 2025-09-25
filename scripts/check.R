@@ -1,6 +1,7 @@
 Sys.setenv(LOG_FILE = "checks-planejamento.jsonl")
 
 library(data.table)
+library(openxlsx)
 
 sigplan <- dpm::read_datapackage("datapackages/sigplan/datapackage.json")
 sisor <- dpm::read_datapackage("datapackages/sisor/datapackage.json")
@@ -31,8 +32,17 @@ checks <- checksplanejamento::check_all(
 
 logs <- jsonlite::stream_in(file("checks-planejamento.jsonl")) |> data.table::as.data.table()
 stopifnot(nrow(checks[valid == FALSE]) == length(unique(logs$type)))
-data.table::fwrite(logs[, .(type, message)], "checks-planejamento.csv", bom = TRUE, dec = ",", sep = ";")
+# data.table::fwrite(logs[, .(type, message)], "data-results/checks-planejamento.csv", bom = TRUE, dec = ",", sep = ";")
 
 error_summary <- logs[valid == FALSE, .N, by = type]
 setnames(error_summary, old = "N", new = "Número de Erros")
-data.table::fwrite(error_summary, "checks-planejamento-resumo.csv", bom = TRUE, dec = ",", sep = ";")
+# data.table::fwrite(error_summary, "data-results/checks-planejamento-resumo.csv", bom = TRUE, dec = ",", sep = ";")
+write.xlsx(logs[, .(type, message)],
+           file = "data-results/checks-planejamento.xlsx",
+           overwrite = TRUE)
+
+logs <- jsonlite::stream_in(file("checks-planejamento.jsonl")) |> data.table::as.data.table()
+stopifnot(nrow(checks[valid == FALSE]) == length(unique(logs$type)))
+write.xlsx(error_summary,
+           file = "data-results/checks-planejamento-resumo.xlsx",
+           overwrite = TRUE)
