@@ -267,7 +267,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:fc1f1ce9798be421ff7a6e0aa44495343e1fabccd1dcfb8c9beb421f8d5c7c1e",
+      "hash": "sha256:b3a2a7a208f594183d3bf25b497141e3bf77463de767841d4283ceaf8ecd1908",
       "bytes": 14884,
       "fields": 21,
       "rows": 47,
@@ -937,7 +937,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:aac8d05465c0e409a10b591503ef33afa7f874798f7c90d9ba4e49e04344ac4d",
+      "hash": "sha256:66dd919a6b5ae361c0c28f86a6266f7cd6cced3b61843d2b0dd117b592f23186",
       "bytes": 519318,
       "fields": 24,
       "rows": 1139,
@@ -1163,10 +1163,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:8dc507c357336dbc61bbc7fa6cb99d4234235fc40dc629846493210456463869",
-      "bytes": 87636,
+      "hash": "sha256:5c02c0cec8c68be87f97888f2700fb05ce761400ef2d4f4dd3d02ac760688c84",
+      "bytes": 87885,
       "fields": 10,
-      "rows": 279,
+      "rows": 280,
       "schema": {
         "fields": [
           {
@@ -1231,10 +1231,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:dcf753a8dd0f59d71f017b5e78b174fcc4a2a407a619f579478149986b1b9ca5",
-      "bytes": 15171,
+      "hash": "sha256:0be9ec07b81f748034946270f15dd6f1c9cc433a1c18a36b66a4b1b0817e15c7",
+      "bytes": 15345,
       "fields": 5,
-      "rows": 334,
+      "rows": 338,
       "schema": {
         "fields": [
           {
@@ -1337,8 +1337,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:8e7922d3ad56079968d3b9084d96aa7e1f31e0994480daf05af85689956d49c1",
-      "bytes": 43395,
+      "hash": "sha256:1007a44b83328f9bfef827172512a52b572aa32ac893a17d78fdc3498c980926",
+      "bytes": 43863,
       "fields": 15,
       "rows": 506,
       "schema": {
@@ -1561,12 +1561,12 @@
       }
     }
   ],
-  "updated_at": "2025-09-24T14:17:38",
+  "updated_at": "2025-09-25T19:41:42",
   "remote": {
     "host": "raw.githubusercontent.com",
     "user": "splor-mg",
     "repo": "dados-sisor-2026",
     "ref": "main",
-    "sha": "01559bb87108019b1c498947d9b9e012b03ce996"
+    "sha": "1cbe73a7c0bbeaece8065e63913b460fd41b9e33"
   }
 }
