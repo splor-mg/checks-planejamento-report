@@ -11,8 +11,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:478e7828667c08592b3ba129213beb35d9ad7c3b65645888a866e49eee541875",
-      "bytes": 2275836,
+      "hash": "sha256:85d9b2a84a5a490b89088e6009456c3b1517abb11e913abc35468d6739159ae9",
+      "bytes": 2275826,
       "fields": 49,
       "rows": 1040,
       "schema": {
@@ -274,8 +274,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:9745a19efb2211821828cf4deafa3fdb4a3015f4fc06e6a495af2a768036d5da",
-      "bytes": 121582,
+      "hash": "sha256:0eabeff11ec5dc8cae4794f47f75bafd7ada80ecd4744a58d464f73de5c3c11a",
+      "bytes": 121672,
       "fields": 26,
       "rows": 237,
       "schema": {
@@ -422,10 +422,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:71c712cc3dd48e9122cb969ef32fb89fa71211320c799994756da8c428b0f924",
-      "bytes": 16090708,
+      "hash": "sha256:48df372fd0f2a48e8acaabc014482b478f6ac62b873ab379b476949902fb43ba",
+      "bytes": 15268359,
       "fields": 33,
-      "rows": 43773,
+      "rows": 41544,
       "schema": {
         "fields": [
           {
@@ -605,7 +605,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:b4216b79daa9b63e4d0675cb9e5e3223b59575a105c0f29f2b9aacc5b01f0f05",
+      "hash": "sha256:b3e03db41ba278bc82bc18c32b2d22b99c9e9dff4ecdd21792dc0319c338fa27",
       "bytes": 8181776,
       "fields": 29,
       "rows": 2565,
@@ -760,12 +760,12 @@
       }
     }
   ],
-  "updated_at": "2025-09-24T16:32:50",
+  "updated_at": "2025-09-25T19:50:48",
   "remote": {
     "host": "raw.githubusercontent.com",
     "user": "splor-mg",
     "repo": "dados-sigplan-planejamento-2026",
     "ref": "main",
-    "sha": "61c0c70ebbe4a1284ab0a05624d21fb0efb52b6d"
+    "sha": "30547e5711c66dd881289424f499715b737a52bb"
   }
 }
