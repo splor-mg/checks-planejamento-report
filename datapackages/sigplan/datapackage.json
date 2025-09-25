@@ -760,12 +760,12 @@
       }
     }
   ],
-  "updated_at": "2025-09-25T19:50:48",
+  "updated_at": "2025-09-25T20:45:22",
   "remote": {
     "host": "raw.githubusercontent.com",
     "user": "splor-mg",
     "repo": "dados-sigplan-planejamento-2026",
     "ref": "main",
-    "sha": "30547e5711c66dd881289424f499715b737a52bb"
+    "sha": "1d4d374a734ba299064556dcd3ec9c50314a38d0"
   }
 }
