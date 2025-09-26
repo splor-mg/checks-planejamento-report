@@ -1,8 +1,8 @@
-.PHONY: all check clean excel zip
+.PHONY: all clean extract check excel zip upload
 
 DATAPACKAGES := $(wildcard datapackages/*/datapackage.json)
 
-all: clean extract check excel zip
+all: clean extract check excel zip upload
 
 clean:
 	rm -f checks-planejamento.jsonl
@@ -24,3 +24,6 @@ excel:
 
 zip:
 	zip -r "reports.zip" data -i "*.xlsx"
+
+upload:
+	Rscript scripts/upload.R
