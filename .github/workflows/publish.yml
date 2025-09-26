@@ -12,14 +12,14 @@ jobs:
       image: rocker/r-ver:4.3.1
     steps:
 
-      - name: Invoke workflow sisor-2026
-        uses: the-actions-org/workflow-dispatch@v4
-        with:
-          workflow: all.yaml
-          repo: splor-mg/dados-armazem-siafi-2025
-          ref: main
-          token: "${{ secrets.GH_PAT }}"
-          wait-for-completion: true
+      # - name: Invoke workflow sisor-2026
+      #   uses: the-actions-org/workflow-dispatch@v4
+      #   with:
+      #     workflow: all.yaml
+      #     repo: splor-mg/dados-armazem-siafi-2025
+      #     ref: main
+      #     token: "${{ secrets.GH_PAT }}"
+      #     wait-for-completion: true
 
       - name: Checkout repo
         uses: actions/checkout@v3
