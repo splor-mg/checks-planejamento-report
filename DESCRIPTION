@@ -7,7 +7,10 @@ Imports:
     glue,
     data.table,
     dpm (== 0.1.2),
-    writexl
+    writexl,
+    Microsoft365R,
+    cyphr,
+    logger
 Encoding: UTF-8
 Remotes:
     github::splor-mg/checks-planejamento,
