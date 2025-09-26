@@ -7,7 +7,7 @@ datapackages/**/*.*
 !datapackages/**/datapackage.json
 docs/
 .venv/
-data-results/**/*.xlsx
+data/**/*.xlsx
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,visualstudio,visualstudiocode,sublimetext
