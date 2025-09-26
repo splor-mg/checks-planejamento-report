@@ -17,6 +17,7 @@ jobs:
         with:
           workflow: all.yaml
           repo: splor-mg/dados-sisor-2026
+          ref: main
           token: "${{ secrets.GH_PAT }}"
 
       - name: Checkout repo
