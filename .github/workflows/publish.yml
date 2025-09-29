@@ -55,8 +55,8 @@ jobs:
       - name: ETL
         env:
           MS365_KEY: ${{ secrets.MS365_KEY }}
-        run: |
-          make all
+        working-directory: ${{ github.workspace }}
+        run: make all
 
       - name: Deploy to GitHub pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1

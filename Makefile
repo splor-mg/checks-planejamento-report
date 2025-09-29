@@ -2,7 +2,7 @@
 
 DATAPACKAGES := $(wildcard datapackages/*/datapackage.json)
 
-all: clean extract check excel zip upload
+all: clean extract check excel zip push upload
 
 clean:
 	rm -f checks-planejamento.jsonl
