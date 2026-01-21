@@ -1,20 +1,22 @@
 {
-  "name": "sisor-dados",
+  "name": "dados-sisor-2026",
+  "title": "Sistema Orçamentário - SISOR 2026",
   "profile": "tabular-data-package",
   "resources": [
     {
       "name": "base_orcam_despesa_item_fiscal",
       "type": "table",
+      "title": "base_orcam_despesa_item_fiscal",
       "profile": "tabular-data-resource",
       "path": "data/base_orcam_despesa_item_fiscal.csv",
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:1624bf74f84441d37fbb8d015c96e29552bead07500b0c77f4290f46367a1e77",
-      "bytes": 2121990,
+      "hash": "sha256:4baf0ef308b6415fd1940a45d1c3aa99c0970417d1d39311fb12fd89b61e23b4",
+      "bytes": 2156295,
       "fields": 21,
-      "rows": 9548,
+      "rows": 9698,
       "schema": {
         "fields": [
           {
@@ -128,16 +130,17 @@
     {
       "name": "base_qdd_plurianual",
       "type": "table",
+      "title": "base_qdd_plurianual",
       "profile": "tabular-data-resource",
       "path": "data/base_qdd_plurianual.csv",
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:1d470610a2a8af9d46c7dc14a66293574a02fe93da3a3df5a77e48d920806918",
-      "bytes": 554551,
+      "hash": "sha256:9c2f102cceba1af51d8021e87e817e8903384bad34bea4acdc5c8250034d8044",
+      "bytes": 559603,
       "fields": 23,
-      "rows": 1955,
+      "rows": 1977,
       "schema": {
         "fields": [
           {
@@ -261,6 +264,7 @@
     {
       "name": "base_qdd_plurianual_invest",
       "type": "table",
+      "title": "base_qdd_plurianual_invest",
       "profile": "tabular-data-resource",
       "path": "data/base_qdd_plurianual_invest.csv",
       "scheme": "file",
@@ -384,13 +388,14 @@
     {
       "name": "base_orcam_despesa_investimento",
       "type": "table",
+      "title": "base_orcam_despesa_investimento",
       "profile": "tabular-data-resource",
       "path": "data/base_orcam_despesa_investimento.csv",
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:af820a1ef66cea5dfea55baca6c07bd7ce6027472c6cd38ea8aa67f71be2bf2b",
+      "hash": "sha256:907e912173fdcfcd4fec6773c9dd60373dd452b4736d0f3505f9eed8af90fd7f",
       "bytes": 14752,
       "fields": 21,
       "rows": 47,
@@ -507,6 +512,7 @@
     {
       "name": "base_detalhamento_obras",
       "type": "table",
+      "title": "base_detalhamento_obras",
       "profile": "tabular-data-resource",
       "path": "data/base_detalhamento_obras.csv",
       "scheme": "file",
@@ -645,16 +651,17 @@
     {
       "name": "base_qdd_fiscal",
       "type": "table",
+      "title": "base_qdd_fiscal",
       "profile": "tabular-data-resource",
       "path": "data/base_qdd_fiscal.csv",
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:b590bfc9753c44b60606a3bca60d2fd12f9405f902cc0ef77eed9ff3a875a18f",
-      "bytes": 1337165,
+      "hash": "sha256:48ab537ec92760a28c03497770b381907be01727cd0606c07def0e6b5f39e4e5",
+      "bytes": 1382895,
       "fields": 27,
-      "rows": 4432,
+      "rows": 4582,
       "schema": {
         "fields": [
           {
@@ -798,6 +805,7 @@
     {
       "name": "base_qdd_investimento",
       "type": "table",
+      "title": "base_qdd_investimento",
       "profile": "tabular-data-resource",
       "path": "data/base_qdd_investimento.csv",
       "scheme": "file",
@@ -931,14 +939,15 @@
     {
       "name": "base_orcam_receita_fiscal",
       "type": "table",
+      "title": "base_orcam_receita_fiscal",
       "profile": "tabular-data-resource",
       "path": "data/base_orcam_receita_fiscal.csv",
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:e3749b583b4c569bce4e5eb12b16c15157200d78c4b9aec16e80a93dfa4cf845",
-      "bytes": 519087,
+      "hash": "sha256:1df814416d416ea3249bf4e4b1f276614167e71f21f0a6a7ff2721ef4fb5b1f4",
+      "bytes": 519085,
       "fields": 24,
       "rows": 1139,
       "schema": {
@@ -986,7 +995,7 @@
           {
             "name": "especie",
             "type": "integer",
-            "source": "ESPÉCIE"
+            "source": "ESPECIE"
           },
           {
             "name": "rubrica",
@@ -1004,9 +1013,9 @@
             "source": "SUBALINEA"
           },
           {
-            "name": "tipo_de_receita",
+            "name": "tipo_receita",
             "type": "integer",
-            "source": "TIPO DE RECEITA"
+            "source": "TIPO_RECEITA"
           },
           {
             "name": "item",
@@ -1069,13 +1078,14 @@
     {
       "name": "base_orcam_receita_investimento",
       "type": "table",
+      "title": "base_orcam_receita_investimento",
       "profile": "tabular-data-resource",
       "path": "data/base_orcam_receita_investimento.csv",
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:ad6652d4bd8a977d0299cbbaac230e0d7be2ceeca7d1b46c9ee11410fc121b22",
+      "hash": "sha256:f9ee7b4f5131e9161be9a8bae2ed20fdf3b59776cc0887d5d646546a79662c82",
       "bytes": 2722,
       "fields": 14,
       "rows": 19,
@@ -1155,86 +1165,19 @@
       }
     },
     {
-      "name": "base_obras_siad",
-      "type": "table",
-      "profile": "tabular-data-resource",
-      "path": "data/base_obras_siad.csv",
-      "scheme": "file",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "hash": "sha256:5c02c0cec8c68be87f97888f2700fb05ce761400ef2d4f4dd3d02ac760688c84",
-      "bytes": 87885,
-      "fields": 10,
-      "rows": 280,
-      "schema": {
-        "fields": [
-          {
-            "name": "orgao_cod",
-            "type": "string",
-            "source": "ORGAO_COD"
-          },
-          {
-            "name": "unidade_adiministrativa_cod",
-            "type": "string",
-            "source": "UNIDADE_ADIMINISTRATIVA_COD"
-          },
-          {
-            "name": "numero_da_obra_siad",
-            "type": "integer",
-            "source": "Número da Obra SIAD"
-          },
-          {
-            "name": "numero_de_referencia_da_uo",
-            "type": "string",
-            "source": "Número de Referência da UO"
-          },
-          {
-            "name": "situacao",
-            "type": "string",
-            "source": "Situação"
-          },
-          {
-            "name": "descricao",
-            "type": "string",
-            "source": "Descrição"
-          },
-          {
-            "name": "data_de_inicio",
-            "type": "string",
-            "source": "Data de Início"
-          },
-          {
-            "name": "data_de_termino",
-            "type": "string",
-            "source": "Data de Término"
-          },
-          {
-            "name": "ano_de_exercicio",
-            "type": "integer",
-            "source": "Ano de Exercício"
-          },
-          {
-            "name": "valor_global",
-            "type": "number",
-            "source": "Valor Global (R$)"
-          }
-        ]
-      }
-    },
-    {
       "name": "base_categoria_pessoal",
       "type": "table",
+      "title": "base_categoria_pessoal",
       "profile": "tabular-data-resource",
       "path": "data/base_categoria_pessoal.csv",
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:367e9ed4a7ae7409b84b61a9d01497f35eb531adbd822c5e9375806580f827b9",
-      "bytes": 15345,
+      "hash": "sha256:8c3da3629075e9410848939b58ce179380d995a27338bbe639f9b1097d4f90ac",
+      "bytes": 14984,
       "fields": 5,
-      "rows": 338,
+      "rows": 330,
       "schema": {
         "fields": [
           {
@@ -1268,6 +1211,7 @@
     {
       "name": "base_repasse_recursos",
       "type": "table",
+      "title": "base_repasse_recursos",
       "profile": "tabular-data-resource",
       "path": "data/base_repasse_recursos.csv",
       "scheme": "file",
@@ -1331,14 +1275,15 @@
     {
       "name": "base_limite_cota",
       "type": "table",
+      "title": "base_limite_cota",
       "profile": "tabular-data-resource",
       "path": "data/base_limite_cota.csv",
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:37497b6f0fae60dd7a9fc8ddb859951cadcd19095e1bb122b5b455552f5cbe25",
-      "bytes": 43863,
+      "hash": "sha256:c72cb8e5a7699537294adb4ed0f5409cd582adca2da211dbf7814d2b17aa1b90",
+      "bytes": 43862,
       "fields": 15,
       "rows": 506,
       "schema": {
@@ -1424,6 +1369,7 @@
     {
       "name": "base_intra_orcamentaria_detalhamento",
       "type": "table",
+      "title": "base_intra_orcamentaria_detalhamento",
       "profile": "tabular-data-resource",
       "path": "data/base_intra_orcamentaria_detalhamento.csv",
       "scheme": "file",
@@ -1462,6 +1408,7 @@
     {
       "name": "base_intra_orcamentaria_repasse",
       "type": "table",
+      "title": "base_intra_orcamentaria_repasse",
       "profile": "tabular-data-resource",
       "path": "data/base_intra_orcamentaria_repasse.csv",
       "scheme": "file",
@@ -1525,16 +1472,17 @@
     {
       "name": "base_unidades_orcamentaria_versoes",
       "type": "table",
+      "title": "base_unidades_orcamentaria_versoes",
       "profile": "tabular-data-resource",
       "path": "data/base_unidades_orcamentaria_versoes.csv",
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:51a95fd6559398f4583b0815beaca43b9af1e7a76724ee17c3a09a3d5a28ec9e",
-      "bytes": 11371,
+      "hash": "sha256:eb5c1e017dced09d3d17a47b861983054414fcee5e7f4de724516d632376320b",
+      "bytes": 11442,
       "fields": 4,
-      "rows": 178,
+      "rows": 179,
       "schema": {
         "fields": [
           {
@@ -1561,12 +1509,13 @@
       }
     }
   ],
-  "updated_at": "2025-09-25T20:42:41",
+  "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
+  "updated_at": "2026-01-21T13:06:35",
   "remote": {
     "host": "raw.githubusercontent.com",
     "user": "splor-mg",
     "repo": "dados-sisor-2026",
     "ref": "main",
-    "sha": "8d9d6966ef47c45eca2439a1d7b97a424b10b707"
+    "sha": "45a21d1d5c5d1a9c4b0f04d61c0aac3b5e4ca199"
   }
 }

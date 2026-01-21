@@ -5,9 +5,10 @@ WORKDIR /project
 RUN /rocker_scripts/install_pandoc.sh
 RUN /rocker_scripts/install_python.sh
 
-RUN export DEBIAN_FRONTEND=noninteractive
-RUN apt-get update
-RUN apt-get install -y git libcurl4-openssl-dev libssl-dev libxt6 libsodium-dev
+RUN export DEBIAN_FRONTEND=noninteractive && \
+    apt-get update && \
+    apt-get install -y git libcurl4-openssl-dev libssl-dev libxt6 libsodium-dev
+
 
 COPY requirements.txt .
 COPY DESCRIPTION .
