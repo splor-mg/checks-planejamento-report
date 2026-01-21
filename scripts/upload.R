@@ -26,7 +26,7 @@ upload_reports_to_sharepoint <- function() {
   site_url <- 'https://cecad365.sharepoint.com/sites/Splor/'
   site <- get_sharepoint_site(site_url = site_url, token = get_token())
   docs <- site$get_drive('Documentos')
-  folder <- docs$get_item('General/@dcppn/DCPPN 2026/PPAG e LOA 2026/Conferências de bases_AID/25-09')
+  folder <- docs$get_item('General/@dcppn/DCPPN 2026/PPAG e LOA 2026/Conferências de bases_AID/2026/20-01')
   ts <- format(Sys.time(), "%Y%m%d%H%M%S")  # e.g. "20250925_211845"
   remote_name <- paste0(ts, "_reports", ".zip")
   folder$upload('reports.zip', remote_name)
