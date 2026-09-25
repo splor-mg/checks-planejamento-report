@@ -11,10 +11,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:02642437cc192eeca2f232968feea43047df4bbf7a0dda1d2ab7ebb4866deeb7",
-      "bytes": 2832,
+      "hash": "sha256:cbc6ed88eb203c689ae6ca06935b938e9063ee5b9cb04452d67f38936f9fa5d4",
+      "bytes": 2884,
       "fields": 3,
-      "rows": 58,
+      "rows": 59,
       "schema": {
         "fields": [
           {
@@ -44,10 +44,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:7e40de6853efe06bfbf1f149dac67519270f191aec2fb4e5abf325564812078a",
-      "bytes": 15816,
+      "hash": "sha256:89f809a91ed4f51f4b6f6292a1fae002348f6b4cde22b582a17337c704c23619",
+      "bytes": 16189,
       "fields": 5,
-      "rows": 119,
+      "rows": 121,
       "schema": {
         "fields": [
           {
@@ -79,12 +79,12 @@
       }
     }
   ],
-  "updated_at": "2026-01-21T11:49:14",
+  "updated_at": "2026-09-23T19:58:21",
   "remote": {
     "host": "raw.githubusercontent.com",
     "user": "splor-mg",
     "repo": "dados-volumes-loa",
     "ref": "main",
-    "sha": "ada35ecd9fb6d4c2604b2fed1711ba50b4afe3da"
+    "sha": "4744b5508698d9522366a98f8ba1074889420063"
   }
 }

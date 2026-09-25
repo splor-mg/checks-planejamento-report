@@ -1,266 +1,219 @@
 {
-  "name": "ppag2026-dadosmg",
+  "name": "dados_sigplan_2027_check",
+  "title": "Planejamento - SIGPLAN (data_check)",
   "profile": "tabular-data-package",
   "resources": [
     {
       "name": "acoes_planejamento",
       "type": "table",
+      "title": "acoes_planejamento",
       "profile": "tabular-data-resource",
       "path": "data/acoes_planejamento.csv",
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:7a7552dedd88fa4998cf89bbfff32cbb2d0e6ec700c718e695ff02c68fc3f2da",
-      "bytes": 2287212,
+      "hash": "sha256:3bf489b9c6a65d05a86fc2e6c67f2ecf7ad46ea44848c423a257ca7addacd5fd",
+      "bytes": 2131495,
       "fields": 49,
-      "rows": 1046,
+      "rows": 1022,
       "schema": {
         "fields": [
           {
             "name": "programa_cod",
-            "type": "integer",
-            "source": "Código do Programa"
+            "type": "integer"
           },
           {
             "name": "programa_desc",
-            "type": "string",
-            "source": "Nome do Programa"
+            "type": "string"
           },
           {
             "name": "area_tematica_cod",
-            "type": "string",
-            "source": "Código da Área Temática"
+            "type": "string"
           },
           {
             "name": "area_tematica_desc",
-            "type": "string",
-            "source": "Área Temática"
+            "type": "string"
           },
           {
             "name": "is_deleted_programa",
-            "type": "boolean",
-            "source": "Exclusão Lógica do Programa"
+            "type": "boolean"
           },
           {
             "name": "is_new_programa",
-            "type": "boolean",
-            "source": "Programa Novo"
+            "type": "boolean"
           },
           {
             "name": "justificativa_is_new_programa",
-            "type": "string",
-            "source": "Justificativa de Inclusão ou Exclusão do Programa"
+            "type": "any"
           },
           {
             "name": "uo_programa_cod",
-            "type": "integer",
-            "source": "Código da Unidade Orçamentária Responsável pelo Programa"
+            "type": "integer"
           },
           {
             "name": "uo_programa_nome",
-            "type": "string",
-            "source": "Unidade Orçamentária Responsável pelo Programa"
+            "type": "string"
           },
           {
             "name": "uo_acao_cod",
-            "type": "integer",
-            "source": "Código da Unidade Orçamentária Responsável pela Ação"
+            "type": "integer"
           },
           {
             "name": "uo_acao_nome",
-            "type": "string",
-            "source": "Unidade Orçamentária Responsável pela Ação"
+            "type": "string"
           },
           {
             "name": "funcao_cod",
-            "type": "integer",
-            "source": "Código da Função"
+            "type": "integer"
           },
           {
             "name": "funcao_desc",
-            "type": "string",
-            "source": "Função"
+            "type": "string"
           },
           {
             "name": "subfuncao_cod",
-            "type": "integer",
-            "source": "Código da Subfunção"
+            "type": "integer"
           },
           {
             "name": "subfuncao_desc",
-            "type": "string",
-            "source": "Subfunção"
+            "type": "string"
           },
           {
             "name": "identificador_tipo_acao_cod",
-            "type": "integer",
-            "source": "Código do Tipo de Ação"
+            "type": "integer"
           },
           {
             "name": "identificador_tipo_acao_desc",
-            "type": "string",
-            "source": "Tipo de Ação"
+            "type": "string"
           },
           {
             "name": "acao_cod",
-            "type": "integer",
-            "source": "Código da Ação"
+            "type": "integer"
           },
           {
             "name": "acao_desc",
-            "type": "string",
-            "source": "Título da Ação"
+            "type": "string"
           },
           {
             "name": "iag_cod",
-            "type": "integer",
-            "source": "Código do Identificador de Ação Governamental (IAG)"
+            "type": "integer"
           },
           {
             "name": "iag_desc",
-            "type": "string",
-            "source": "Identificador de Ação Governamental (IAG)"
+            "type": "string"
           },
           {
             "name": "projeto_estrategico_cod",
-            "type": "string",
-            "source": "Código do Projeto Estratégico"
+            "type": "integer"
           },
           {
             "name": "projeto_estrategico",
-            "type": "string",
-            "source": "Projeto Estratégico"
+            "type": "string"
           },
           {
             "name": "is_deleted_acao",
-            "type": "boolean",
-            "source": "Exclusão Lógica da Ação"
+            "type": "boolean"
           },
           {
             "name": "is_new_acao",
-            "type": "boolean",
-            "source": "Nova Ação"
+            "type": "boolean"
           },
           {
             "name": "justificativa_is_new_acao",
-            "type": "string",
-            "source": "Justificativa de Inclusão ou Exclusão da Ação"
+            "type": "string"
           },
           {
             "name": "is_transferida_sisor",
-            "type": "boolean",
-            "source": "Transferida para o SISOR"
+            "type": "any"
           },
           {
             "name": "ua_acao_nome",
-            "type": "string",
-            "source": "Unidade Administrativa Responsável pela Ação"
+            "type": "string"
           },
           {
             "name": "base_legal",
-            "type": "string",
-            "source": "Base legal"
+            "type": "string"
           },
           {
             "name": "acao_finalidade",
-            "type": "string",
-            "source": "Finalidade da Ação"
+            "type": "string"
           },
           {
             "name": "acao_descricao",
-            "type": "string",
-            "source": "Descrição da Ação"
+            "type": "string"
           },
           {
             "name": "publico_alvo_cod",
-            "type": "integer",
-            "source": "Código do Público-alvo"
+            "type": "integer"
           },
           {
             "name": "publico_alvo_desc",
-            "type": "string",
-            "source": "Público-Alvo"
+            "type": "string"
           },
           {
             "name": "produto_cod",
-            "type": "integer",
-            "source": "Código do Produto"
+            "type": "integer"
           },
           {
             "name": "produto_desc",
-            "type": "string",
-            "source": "Produto"
+            "type": "string"
           },
           {
             "name": "produto_especificacao",
-            "type": "string",
-            "source": "Especificação do Produto"
+            "type": "string"
           },
           {
             "name": "produto_unidade_medida_cod",
-            "type": "integer",
-            "source": "Código da Unidade de Medida do Produto"
+            "type": "integer"
           },
           {
             "name": "produto_unidade_medida_desc",
-            "type": "string",
-            "source": "Unidade de Medida do Produto"
+            "type": "string"
           },
           {
             "name": "vr_meta_orcamentaria_ano0",
-            "type": "number",
-            "source": "Previsão Orçamentária 2026"
+            "type": "integer"
           },
           {
             "name": "vr_meta_orcamentaria_ano1",
-            "type": "number",
-            "source": "Previsão Orçamentária 2027"
+            "type": "integer"
           },
           {
             "name": "vr_meta_orcamentaria_ano2",
-            "type": "number",
-            "source": "Previsão Orçamentária 2028"
+            "type": "integer"
           },
           {
             "name": "vr_meta_orcamentaria_ano3",
-            "type": "number",
-            "source": "Previsão Orçamentária 2029"
+            "type": "integer"
           },
           {
             "name": "vr_meta_fisica_ano0",
-            "type": "integer",
-            "source": "Previsão Física 2026"
+            "type": "integer"
           },
           {
             "name": "vr_meta_fisica_ano1",
-            "type": "integer",
-            "source": "Previsão Física 2027"
+            "type": "integer"
           },
           {
             "name": "vr_meta_fisica_ano2",
-            "type": "integer",
-            "source": "Previsão Física 2028"
+            "type": "integer"
           },
           {
             "name": "vr_meta_fisica_ano3",
-            "type": "integer",
-            "source": "Previsão Física 2029"
+            "type": "integer"
           },
           {
             "name": "is_acao_transposta",
-            "type": "boolean",
-            "source": "Ação Transposta"
+            "type": "any"
           },
           {
             "name": "setor_governo",
-            "type": "string",
-            "source": "Setor de Governo"
+            "type": "string"
           },
           {
             "name": "politica_mulheres",
-            "type": "string",
-            "source": "Política para mulheres"
+            "type": "string"
           }
         ]
       }
@@ -268,147 +221,122 @@
     {
       "name": "indicadores_planejamento",
       "type": "table",
+      "title": "indicadores_planejamento",
       "profile": "tabular-data-resource",
       "path": "data/indicadores_planejamento.csv",
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:ba62fa353c0e892250feb85461f49f133b7d1eb91caf6108baace1b92423182c",
-      "bytes": 120912,
+      "hash": "sha256:a2f9383c819027b8e8b63cbaa99e784ff92c6913a72ca6f94a6de229771100f4",
+      "bytes": 123229,
       "fields": 26,
-      "rows": 237,
+      "rows": 230,
       "schema": {
         "fields": [
           {
             "name": "programa_cod",
-            "type": "integer",
-            "source": "Código do Programa"
+            "type": "integer"
           },
           {
             "name": "programa_nome",
-            "type": "string",
-            "source": "Nome do Programa"
+            "type": "string"
           },
           {
             "name": "is_deleted_programa",
-            "type": "boolean",
-            "source": "Exclusão Lógica do Programa"
+            "type": "boolean"
           },
           {
             "name": "indicador",
-            "type": "string",
-            "source": "Indicador"
+            "type": "string"
           },
           {
             "name": "is_deleted_indicador",
-            "type": "boolean",
-            "source": "Exclusão Lógica do Indicador"
+            "type": "boolean"
           },
           {
             "name": "unidade_de_medida",
-            "type": "string",
-            "source": "Unidade de Medida"
+            "type": "string"
           },
           {
             "name": "indice_de_referencia",
-            "type": "number",
-            "source": "Índice de Referência"
+            "type": "number"
           },
           {
             "name": "is_em_apuracao_indice_de_referencia",
-            "type": "boolean",
-            "source": "Em apuração? (Índice de Referência)"
+            "type": "boolean"
           },
           {
             "name": "dt_apuracao",
-            "type": "date",
-            "source": "Data de Apuração"
+            "type": "date"
           },
           {
             "name": "previsao_para_ano0",
-            "type": "number",
-            "source": "Previsão para 2026"
+            "type": "number"
           },
           {
             "name": "is_em_apuracao_ano0",
-            "type": "boolean",
-            "source": "Em apuração? (2026)"
+            "type": "boolean"
           },
           {
             "name": "previsao_para_ano1",
-            "type": "number",
-            "source": "Previsão para 2027"
+            "type": "number"
           },
           {
             "name": "is_em_apuracao_ano1",
-            "type": "boolean",
-            "source": "Em apuração? (2027)"
+            "type": "boolean"
           },
           {
             "name": "previsao_para_ano2",
-            "type": "number",
-            "source": "Previsão para 2028"
+            "type": "number"
           },
           {
             "name": "is_em_apuracao_ano2",
-            "type": "boolean",
-            "source": "Em apuração? (2028)"
+            "type": "boolean"
           },
           {
             "name": "previsao_para_ano3",
-            "type": "number",
-            "source": "Previsão para 2029"
+            "type": "number"
           },
           {
             "name": "is_em_apuracao_ano3",
-            "type": "boolean",
-            "source": "Em apuração? (2029)"
+            "type": "boolean"
           },
           {
             "name": "fonte",
-            "type": "string",
-            "source": "Fonte"
+            "type": "string"
           },
           {
             "name": "periodicidade",
-            "type": "string",
-            "source": "Periodicidade"
+            "type": "string"
           },
           {
             "name": "base_geografica",
-            "type": "string",
-            "source": "Base Geográfica"
+            "type": "string"
           },
           {
             "name": "formula_de_calculo",
-            "type": "string",
-            "source": "Fórmula de Cálculo"
+            "type": "string"
           },
           {
             "name": "justificativa_status_apuracao_previsoes",
-            "type": "string",
-            "source": "Justificativa do Status em apuração da(s) Previsão(es) do(s) Índice(s)"
+            "type": "string"
           },
           {
             "name": "justificativa_status_apuracao_indice_ref",
-            "type": "string",
-            "source": "Justificativa do Status em apuração do Índice de Referência"
+            "type": "string"
           },
           {
             "name": "updated_at",
-            "type": "datetime",
-            "source": "Data Alteração"
+            "type": "datetime"
           },
           {
             "name": "is_indicador_new",
-            "type": "boolean",
-            "source": "Indicador Novo?"
+            "type": "boolean"
           },
           {
             "name": "polaridade",
-            "type": "string",
-            "source": "Polaridade"
+            "type": "string"
           }
         ]
       }
@@ -416,182 +344,150 @@
     {
       "name": "localizadores_todos_planejamento",
       "type": "table",
+      "title": "localizadores_todos_planejamento",
       "profile": "tabular-data-resource",
       "path": "data/localizadores_todos_planejamento.csv",
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:4fc2e934d51426b5067fbe24daf8b1aafb688cbd930bb3fef0390794d7c89bc2",
-      "bytes": 16382559,
+      "hash": "sha256:99b3641131ab0e62aab27b7401d9bcbc04015a738db1ca89578b3c2af7a67e06",
+      "bytes": 15627750,
       "fields": 33,
-      "rows": 44507,
+      "rows": 41506,
       "schema": {
         "fields": [
           {
             "name": "programa_cod",
-            "type": "integer",
-            "source": "Código do Programa"
+            "type": "integer"
           },
           {
             "name": "programa_desc",
-            "type": "string",
-            "source": "Nome do Programa"
+            "type": "string"
           },
           {
             "name": "area_tematica_cod",
-            "type": "string",
-            "source": "Código da Área Temática"
+            "type": "string"
           },
           {
             "name": "area_tematica_desc",
-            "type": "string",
-            "source": "Área Temática"
+            "type": "string"
           },
           {
             "name": "is_deleted_programa",
-            "type": "boolean",
-            "source": "Exclusão Lógica do Programa"
+            "type": "boolean"
           },
           {
             "name": "acao_cod",
-            "type": "integer",
-            "source": "Código da Ação"
+            "type": "integer"
           },
           {
             "name": "acao_desc",
-            "type": "string",
-            "source": "Título da Ação"
+            "type": "string"
           },
           {
             "name": "iag_cod",
-            "type": "integer",
-            "source": "Código do Identificador de Ação Governamental (IAG)"
+            "type": "integer"
           },
           {
             "name": "iag_desc",
-            "type": "string",
-            "source": "Identificador de Ação Governamental (IAG)"
+            "type": "string"
           },
           {
             "name": "projeto_estrategico_cod",
-            "type": "string",
-            "source": "Código do Projeto Estratégico"
+            "type": "integer"
           },
           {
             "name": "projeto_estrategico_desc",
-            "type": "string",
-            "source": "Projeto Estratégico"
+            "type": "string"
           },
           {
             "name": "funcao_cod",
-            "type": "integer",
-            "source": "Código da Função"
+            "type": "integer"
           },
           {
             "name": "funcao_desc",
-            "type": "string",
-            "source": "Função"
+            "type": "string"
           },
           {
             "name": "subfuncao_cod",
-            "type": "integer",
-            "source": "Código da Subfunção"
+            "type": "integer"
           },
           {
             "name": "subfuncao_desc",
-            "type": "string",
-            "source": "SubFunção"
+            "type": "string"
           },
           {
             "name": "uo_acao_cod",
-            "type": "integer",
-            "source": "Código da Unidade Orçamentária Responsável pela Ação"
+            "type": "integer"
           },
           {
             "name": "uo_acao_nome",
-            "type": "string",
-            "source": "Unidade Orçamentária Responsável pela Ação"
+            "type": "string"
           },
           {
             "name": "is_deleted_acao",
-            "type": "boolean",
-            "source": "Exclusão Lógica da Ação"
+            "type": "boolean"
           },
           {
             "name": "localizador_cod",
-            "type": "string",
-            "source": "Código do Localizador"
+            "type": "integer"
           },
           {
             "name": "is_deleted_localizador",
-            "type": "boolean",
-            "source": "Exclusão Lógica do Localizador"
+            "type": "boolean"
           },
           {
             "name": "regiao_geografica_cod",
-            "type": "integer",
-            "source": "Código da Região Geográfica Intermediária"
+            "type": "integer"
           },
           {
             "name": "regiao_geografica_desc",
-            "type": "string",
-            "source": "Região Geográfica Intermediária"
+            "type": "string"
           },
           {
             "name": "municipio_ibge_cod",
-            "type": "integer",
-            "source": "Código do Município IBGE"
+            "type": "integer"
           },
           {
             "name": "municipio_sigplan_cod",
-            "type": "integer",
-            "source": "Código do Município Sigplan"
+            "type": "integer"
           },
           {
             "name": "municipio",
-            "type": "string",
-            "source": "Município"
+            "type": "string"
           },
           {
             "name": "vr_meta_orcamentaria_ano0",
-            "type": "number",
-            "source": "Previsão Orçamentária 2026"
+            "type": "integer"
           },
           {
             "name": "vr_meta_fisica_ano0",
-            "type": "integer",
-            "source": "Previsão Física 2026"
+            "type": "integer"
           },
           {
             "name": "vr_meta_orcamentaria_ano1",
-            "type": "number",
-            "source": "Previsão Orçamentária 2027"
+            "type": "integer"
           },
           {
             "name": "vr_meta_fisica_ano1",
-            "type": "integer",
-            "source": "Previsão Física 2027"
+            "type": "integer"
           },
           {
             "name": "vr_meta_orcamentaria_ano2",
-            "type": "number",
-            "source": "Previsão Orçamentária 2028"
+            "type": "integer"
           },
           {
             "name": "vr_meta_fisica_ano2",
-            "type": "integer",
-            "source": "Previsão Física 2028"
+            "type": "integer"
           },
           {
             "name": "vr_meta_orcamentaria_ano3",
-            "type": "number",
-            "source": "Previsão Orçamentária 2029"
+            "type": "integer"
           },
           {
             "name": "vr_meta_fisica_ano3",
-            "type": "integer",
-            "source": "Previsão Física 2029"
+            "type": "integer"
           }
         ]
       }
@@ -599,173 +495,138 @@
     {
       "name": "programas_planejamento",
       "type": "table",
+      "title": "programas_planejamento",
       "profile": "tabular-data-resource",
       "path": "data/programas_planejamento.csv",
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:31a6475db32444d5a419c856af0b69eddb5cedc9c3515f9edaf83ae1e9b2c72e",
-      "bytes": 8145185,
+      "hash": "sha256:2ddfcda9060cc48665e96d208f67b17d20b00cf391b5e8ada666c889ddcebec0",
+      "bytes": 7542869,
       "fields": 29,
-      "rows": 2553,
+      "rows": 2660,
       "schema": {
         "fields": [
           {
             "name": "programa_cod",
-            "type": "integer",
-            "source": "Código do Programa"
+            "type": "integer"
           },
           {
             "name": "programa_desc",
-            "type": "string",
-            "source": "Nome do Programa"
+            "type": "string"
           },
           {
             "name": "is_deleted_programa",
-            "type": "boolean",
-            "source": "Exclusão Lógica do Programa"
+            "type": "boolean"
           },
           {
             "name": "is_new_programa",
-            "type": "boolean",
-            "source": "Programa Novo"
+            "type": "boolean"
           },
           {
             "name": "area_tematica_cod",
-            "type": "string",
-            "source": "Código da Área Temática"
+            "type": "string"
           },
           {
             "name": "area_tematica_desc",
-            "type": "string",
-            "source": "Área Temática"
+            "type": "string"
           },
           {
             "name": "objetivo_estrategico_cod",
-            "type": "integer",
-            "source": "Código do Objetivo Estratégico"
+            "type": "integer"
           },
           {
             "name": "objetivo_estrategico_desc",
-            "type": "string",
-            "source": "Objetivo Estratégico"
+            "type": "string"
           },
           {
             "name": "diretriz_estrategica_cod",
-            "type": "string",
-            "source": "Código da Diretriz Estratégica"
+            "type": "integer"
           },
           {
             "name": "diretriz_estrategica_desc",
-            "type": "string",
-            "source": "Diretriz Estratégica"
+            "type": "string"
           },
           {
             "name": "justificativa_is_new_programa",
-            "type": "string",
-            "source": "Justificativa de Inclusão ou Exclusão do Programa"
+            "type": "any"
           },
           {
             "name": "orgao_programa_cod",
-            "type": "integer",
-            "source": "Código do Órgão Responsável pelo Programa"
+            "type": "integer"
           },
           {
             "name": "orgao_programa_nome",
-            "type": "string",
-            "source": "Órgão Responsável pelo Programa"
+            "type": "string"
           },
           {
             "name": "uo_programa_cod",
-            "type": "integer",
-            "source": "Código da Unidade Orçamentária Responsável pelo Programa"
+            "type": "integer"
           },
           {
             "name": "uo_programa_nome",
-            "type": "string",
-            "source": "Unidade Orçamentária Responsável pelo Programa"
+            "type": "string"
           },
           {
             "name": "objetivo",
-            "type": "string",
-            "source": "Objetivo"
+            "type": "string"
           },
           {
             "name": "justificativa",
-            "type": "string",
-            "source": "Justificativa"
+            "type": "string"
           },
           {
             "name": "tipo_de_programa",
-            "type": "string",
-            "source": "Tipo de Programa"
+            "type": "string"
           },
           {
             "name": "horizonte_temporal",
-            "type": "string",
-            "source": "Horizonte Temporal"
+            "type": "string"
           },
           {
             "name": "estrategia_de_implementacao",
-            "type": "string",
-            "source": "Estratégia de Implementação"
+            "type": "string"
           },
           {
             "name": "ua_programa_nome",
-            "type": "string",
-            "source": "Unidade Administrativa Responsável pelo Programa"
+            "type": "string"
           },
           {
             "name": "vr_meta_orcamentaria_ano0",
-            "type": "number",
-            "source": "Previsão Orçamentária 2026"
+            "type": "integer"
           },
           {
             "name": "vr_meta_orcamentaria_ano1",
-            "type": "number",
-            "source": "Previsão Orçamentária 2027"
+            "type": "integer"
           },
           {
             "name": "vr_meta_orcamentaria_ano2",
-            "type": "number",
-            "source": "Previsão Orçamentária 2028"
+            "type": "integer"
           },
           {
             "name": "vr_meta_orcamentaria_ano3",
-            "type": "number",
-            "source": "Previsão Orçamentária 2029"
+            "type": "integer"
           },
           {
             "name": "is_programa_transposto",
-            "type": "boolean",
-            "source": "Programa Transposto"
+            "type": "any"
           },
           {
             "name": "causas",
-            "type": "string",
-            "source": "Causas"
+            "type": "string"
           },
           {
             "name": "ods_titulo",
-            "type": "string",
-            "source": "Título do Objetivo de Desenvolvimento Sustentável"
+            "type": "string"
           },
           {
             "name": "ods_subtitulo",
-            "type": "string",
-            "source": "Subtítulo do Objetivo de Desenvolvimento Sustentável"
+            "type": "any"
           }
         ]
       }
     }
   ],
-  "updated_at": "2026-01-21T13:30:05",
-  "remote": {
-    "host": "raw.githubusercontent.com",
-    "user": "splor-mg",
-    "repo": "dados-sigplan-planejamento-2026",
-    "ref": "main",
-    "sha": "ce8962ad7038680913004264b5cf47baf2d175b8"
-  }
+  "updated_at": "2026-09-25T11:51:36"
 }

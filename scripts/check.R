@@ -22,8 +22,6 @@ checks <- checksplanejamento::check_all(
   sisor$base_orcam_receita_investimento,
   sisor$base_qdd_fiscal,
   sisor$base_qdd_investimento,
-  sisor$base_qdd_plurianual,
-  sisor$base_qdd_plurianual_invest,
   sisor$base_repasse_recursos,
   aux$desc_setor_governo,
   aux$ffp_acoes,
