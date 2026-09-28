@@ -1,6 +1,6 @@
 {
-  "name": "dados_sisor_2027_check",
-  "title": "Orçamento - SISOR (data_check)",
+  "name": "dados_sisor_2027",
+  "title": "Orçamento - SISOR",
   "profile": "tabular-data-package",
   "resources": [
     {
@@ -1016,5 +1016,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-25T19:59:07"
+  "updated_at": "2026-09-28T07:50:41"
 }

@@ -1,6 +1,6 @@
 {
-  "name": "dados_sigplan_2027_check",
-  "title": "Planejamento - SIGPLAN (data_check)",
+  "name": "dados_sigplan_2027",
+  "title": "Planejamento - SIGPLAN",
   "profile": "tabular-data-package",
   "resources": [
     {
@@ -228,7 +228,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:9d01a3119cb1945c4ad383bd8801bc1b6eaff8ef624abbf9584408fcdf7fbdb9",
+      "hash": "sha256:237d4cadf19cae5a86d5e66a03ba7f5a5e2514031e48c5fb3998480fa93df368",
       "bytes": 123238,
       "fields": 26,
       "rows": 230,
@@ -628,5 +628,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-25T19:59:07"
+  "updated_at": "2026-09-28T07:50:41"
 }

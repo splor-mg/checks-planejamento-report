@@ -36,10 +36,10 @@
       }
     },
     {
-      "name": "desc_setor_uo_orgao",
+      "name": "desc_setor_governo",
       "type": "table",
       "profile": "tabular-data-resource",
-      "path": "data/desc_setor_uo_orgao.csv",
+      "path": "data/desc_setor_governo.csv",
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
