@@ -16,7 +16,6 @@ checks <- checksplanejamento::check_all(
   sisor$base_detalhamento_obras,
   sisor$base_intra_orcamentaria_detalhamento,
   sisor$base_intra_orcamentaria_repasse,
-  sisor$base_limite_cota,
   sisor$base_orcam_despesa_item_fiscal,
   sisor$base_orcam_receita_fiscal,
   sisor$base_orcam_receita_investimento,
