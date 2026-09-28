@@ -542,10 +542,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:b1955a0a64171096fbaefc149b390991263a23070e31ce8894b91663bb602a7f",
-      "bytes": 425930,
+      "hash": "sha256:f7a6c120e77f8a13b4ad78c295533414d7f41be91c4c4b77d0695bbbd6f03095",
+      "bytes": 431883,
       "fields": 24,
-      "rows": 1196,
+      "rows": 1213,
       "schema": {
         "fields": [
           {
@@ -1016,5 +1016,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-28T07:50:41"
+  "updated_at": "2026-09-28T13:18:17"
 }
